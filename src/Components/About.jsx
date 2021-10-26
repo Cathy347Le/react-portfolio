@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import "./About.scss";
+import Menu from "./Menu";
 
 class About extends Component {
   render() {
     return (
       <div className="about-section">
         <div className="col-xs-12 col-sm-6 bckgrd-black section-title">
-          <h1>About</h1>
+          <div className="title-container">
+            <h1>About</h1>
+          </div>
+          <Menu />
         </div>
         <div className="col-xs-12 col-sm-6 bckgrd-white">
           <h3>About Content</h3>

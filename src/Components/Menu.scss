@@ -1,3 +1,5 @@
+@import "./variables-mixins.scss";
+
 .menu-container {
   text-align: center;
   ul {
@@ -9,6 +11,15 @@
         &:before {
           content: "/";
           padding: 0px 16px;
+        }
+      }
+      a {
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding-bottom: 8px;
+        &:hover {
+          border-bottom: 2px solid white;
         }
       }
     }

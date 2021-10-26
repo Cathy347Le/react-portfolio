@@ -6,9 +6,18 @@ class Menu extends Component {
     return (
       <div className="menu-container">
         <ul>
-          <li>About</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Work</a>
+          </li>
+          <li>
+            <a href="">Resume</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
         </ul>
       </div>
     );
