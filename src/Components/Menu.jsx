@@ -13,7 +13,7 @@ class Menu extends Component {
             <a href="#work-section">Work</a>
           </li>
           <li>
-            <a href="">Resume</a>
+            <a href="#resume-section">Resume</a>
           </li>
           <li>
             <a href="#contact-section">Contact</a>
