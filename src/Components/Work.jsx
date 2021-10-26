@@ -5,14 +5,14 @@ import Menu from "./Menu";
 class Work extends Component {
   render() {
     return (
-      <div className="work-section" id="work-section">
-        <div className="col-xs-12 col-sm-6 bckgrd-white title-section">
+      <div className="work-section clearfix" id="work-section">
+        <div className="bckgrd-white title-section">
           <div className="title-container">
             <h1>Work</h1>
           </div>
           <Menu />
         </div>
-        <div className="col-xs-12 col-sm-6 projects-section">
+        <div className="projects-section">
           <div
             className="project-item-container project-1"
             style={{

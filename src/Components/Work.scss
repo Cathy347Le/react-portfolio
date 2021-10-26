@@ -3,46 +3,55 @@ $black: #090108;
 $white: #ffffff;
 
 .work-section {
-  height: 100vh;
-  display: flex;
-  position: relative;
-  .col-sm-6 {
-    flex: 50%;
-    &.title-section {
-      color: $purple;
-      padding: 48px;
-      .title-container {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: center;
-      }
-    }
-    .menu-container {
+  // height: 100vh;
+  // display: flex;
+  // position: relative;
+  // flex: 50%;
+  .title-section {
+    height: 700px;
+    width: 50%;
+    position: absolute;
+    color: $purple;
+    padding: 48px;
+    .title-container {
       position: relative;
-      top: calc(100% - 73px);
+      top: 50%;
+      transform: translateY(-50%);
       text-align: center;
-      ul li a {
-        color: $purple;
-        &:hover {
-          border-bottom: 2px solid $purple;
-        }
+    }
+  }
+  .projects-section {
+    width: 50%;
+    float: right;
+    .project-item-container {
+      // background-image: url(../Images/project-gmmb.jpeg);
+      // background-image: url(../Images/project-acaai.jpeg);
+      height: 700px;
+      background-position: center;
+      background-size: cover;
+      .project-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        position: relative;
+        top: 30%;
       }
     }
   }
-  .project-item-container {
-    // background-image: url(../Images/project-gmmb.jpeg);
-    background-image: url(../Images/project-acaai.jpeg);
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    .project-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: white;
-      position: relative;
-      top: 30%;
+  .menu-container {
+    position: relative;
+    top: calc(100% - 73px);
+    text-align: center;
+    ul li a {
+      color: $purple;
+      &:hover {
+        border-bottom: 2px solid $purple;
+      }
     }
   }
+}
+
+.clearfix {
+  overflow: auto;
 }
