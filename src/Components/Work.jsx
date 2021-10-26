@@ -14,11 +14,27 @@ class Work extends Component {
         </div>
         <div className="col-xs-12 col-sm-6 projects-section">
           <div
-            className="project-item-container"
-            // style={{ backgroundImage: `url(../Images/project-gmmb.jpeg)` }}
+            className="project-item-container project-1"
+            style={{
+              backgroundImage: `url(/static/media/project-gmmb.3e577fe9.jpeg)`,
+            }}
           >
             <div className="project-content">
               <h2>GMMB</h2>
+              <h6>
+                Interactive and creative website using parallax, animations, and
+                hover effects
+              </h6>
+            </div>
+          </div>
+          <div
+            className="project-item-container project-2"
+            style={{
+              backgroundImage: `url(/static/media/project-acaai.fa048b77.jpeg)`,
+            }}
+          >
+            <div className="project-content">
+              <h2>American College of Allergy, Asthma, & Immunology</h2>
               <h6>
                 Interactive and creative website using parallax, animations, and
                 hover effects

@@ -31,9 +31,11 @@ $white: #ffffff;
     }
   }
   .project-item-container {
-    background-image: url(../Images/project-gmmb.jpeg);
+    // background-image: url(../Images/project-gmmb.jpeg);
+    background-image: url(../Images/project-acaai.jpeg);
     height: 100%;
     background-position: center;
+    background-size: cover;
     .project-content {
       display: flex;
       flex-direction: column;
