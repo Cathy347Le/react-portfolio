@@ -6,18 +6,20 @@ class Work extends Component {
   render() {
     return (
       <div className="work-section" id="work-section">
-        <div className="col-xs-12 col-sm-6 bckgrd-white section-title">
+        <div className="col-xs-12 col-sm-6 bckgrd-white title-section">
           <div className="title-container">
             <h1>Work</h1>
           </div>
           <Menu />
         </div>
-        <div className="col-xs-12 col-sm-6 bckgrd-white">
-          <h3>Work Content</h3>
-          <p>
-            I’m always open to discussing new projects, creative ideas or
-            opportunities to be a part of your team. Feel free to email me.
-          </p>
+        <div className="col-xs-12 col-sm-6 projects-section">
+          <div className="project-item-container">
+            <h2>GMMB</h2>
+            <h6>
+              Interactive and creative website using parallax, animations, and
+              hover effects
+            </h6>
+          </div>
         </div>
       </div>
     );

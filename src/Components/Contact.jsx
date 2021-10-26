@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-section" id="contact-section">
-        <div className="col-xs-12 col-sm-6 bckgrd-purple section-title">
+        <div className="col-xs-12 col-sm-6 bckgrd-purple title-section">
           <div className="title-container">
             <h1>Contact</h1>
           </div>
