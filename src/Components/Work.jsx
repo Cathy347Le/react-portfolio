@@ -13,12 +13,17 @@ class Work extends Component {
           <Menu />
         </div>
         <div className="col-xs-12 col-sm-6 projects-section">
-          <div className="project-item-container">
-            <h2>GMMB</h2>
-            <h6>
-              Interactive and creative website using parallax, animations, and
-              hover effects
-            </h6>
+          <div
+            className="project-item-container"
+            // style={{ backgroundImage: `url(../Images/project-gmmb.jpeg)` }}
+          >
+            <div className="project-content">
+              <h2>GMMB</h2>
+              <h6>
+                Interactive and creative website using parallax, animations, and
+                hover effects
+              </h6>
+            </div>
           </div>
         </div>
       </div>

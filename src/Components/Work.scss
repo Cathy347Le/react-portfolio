@@ -8,9 +8,9 @@ $white: #ffffff;
   position: relative;
   .col-sm-6 {
     flex: 50%;
-    padding: 48px;
     &.title-section {
       color: $purple;
+      padding: 48px;
       .title-container {
         position: relative;
         top: 50%;
@@ -28,6 +28,19 @@ $white: #ffffff;
           border-bottom: 2px solid $purple;
         }
       }
+    }
+  }
+  .project-item-container {
+    background-image: url(../Images/project-gmmb.jpeg);
+    height: 100%;
+    background-position: center;
+    .project-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      position: relative;
+      top: 30%;
     }
   }
 }
