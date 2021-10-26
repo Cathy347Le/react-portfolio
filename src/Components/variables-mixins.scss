@@ -1,0 +1,21 @@
+$purple: #852ed9;
+$white: #ffffff;
+
+.bckgrd-purple {
+  background-color: $purple;
+}
+
+.bckgrd-white {
+  background-color: $white;
+}
+
+.col-sm-6 {
+  padding: 48px;
+  &.section-title {
+    h1 {
+      position: relative;
+      top: 50%;
+      text-align: center;
+    }
+  }
+}
