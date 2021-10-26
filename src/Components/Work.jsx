@@ -73,6 +73,17 @@ class Work extends Component {
                 </h6>
               </div>
             </div>
+            <div
+              className="project-item-container project-3"
+              style={{
+                backgroundImage: `url(/static/media/project-kuni.6b0fabe3.jpg)`,
+              }}
+            >
+              <div className="project-content">
+                <h2>Kuni Foundation</h2>
+                <h6>Wordpress website built with accessibility in mind</h6>
+              </div>
+            </div>
           </div>
         </div>
       </StickyContainer>
