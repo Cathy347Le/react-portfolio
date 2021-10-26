@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import "./Contact.scss";
+import Menu from "./Menu";
 
 class Contact extends Component {
   render() {
     return (
       <div className="contact-section">
         <div className="col-xs-12 col-sm-6 bckgrd-purple section-title">
-          <h1>Contact</h1>
+          <div className="title-container">
+            <h1>Contact</h1>
+          </div>
+          <Menu />
         </div>
         <div className="col-xs-12 col-sm-6 bckgrd-white">
           <h3>I love meeting new people</h3>
@@ -17,7 +21,11 @@ class Contact extends Component {
           </p>
           <h4>Cathy Le</h4>
           <p>Software Engineer</p>
-          <a href="mailto:cathy347le@gmail.com" target="_blank">
+          <a
+            href="mailto:cathy347le@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             Cathy347Le@gmail.com
           </a>
         </div>

@@ -1,4 +1,6 @@
+@import "./variables-mixins.scss";
+
 .hero-section {
-  background-color: purple;
+  background-color: $purple;
   height: 100vh;
 }
