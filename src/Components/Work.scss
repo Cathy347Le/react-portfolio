@@ -7,10 +7,14 @@ $white: #ffffff;
   // display: flex;
   // position: relative;
   // flex: 50%;
+  // &:first-child {
+  //   display: none !important;
+  // }
   .title-section {
     height: 700px;
-    width: 50%;
-    position: absolute;
+    width: 50% !important;
+    float: left !important;
+    // position: absolute;
     color: $purple;
     padding: 48px;
     .title-container {
