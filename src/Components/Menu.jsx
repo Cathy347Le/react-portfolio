@@ -7,16 +7,16 @@ class Menu extends Component {
       <div className="menu-container">
         <ul>
           <li>
-            <a href="">About</a>
+            <a href="#about-section">About</a>
           </li>
           <li>
-            <a href="">Work</a>
+            <a href="#work-section">Work</a>
           </li>
           <li>
             <a href="">Resume</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact-section">Contact</a>
           </li>
         </ul>
       </div>
