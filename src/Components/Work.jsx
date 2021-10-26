@@ -1,11 +1,31 @@
 import React, { Component } from "react";
+import { StickyContainer, Sticky } from "react-sticky";
 import "./Work.scss";
 import Menu from "./Menu";
 
 class Work extends Component {
   render() {
+    // window.onscroll = function () {
+    //   myFunction();
+    // };
+
+    // var header = document.getElementById("title-section");
+    // var sticky = header.offsetTop();
+    // let classes = "bckgrd-white title-section";
+
+    // function myFunction() {
+    //   if (window.pageYOffset > sticky) {
+    //     classes += "sticky";
+    //   } else {
+    //     classes += "blah";
+    //   }
+    // }
+
+    // console.log("hello");
+
     return (
       <div className="work-section clearfix" id="work-section">
+        {/* <div className="bckgrd-white title-section"> */}
         <div className="bckgrd-white title-section">
           <div className="title-container">
             <h1>Work</h1>
