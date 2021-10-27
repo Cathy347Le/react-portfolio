@@ -1,4 +1,6 @@
-$purple: #8703f4;
+$electric-purple: #8703f4;
+//primary purple - neon purple
+$purple: #b026ff;
 $black: #090108;
 $white: #ffffff;
 
@@ -69,6 +71,9 @@ p {
     }
     .content-container {
       padding: 32px;
+      a {
+        color: $purple;
+      }
     }
   }
 }
