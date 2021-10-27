@@ -11,8 +11,8 @@ class Project extends Component {
         }}
       >
         <div className="project-content">
-          <h2>{this.props.project.title}</h2>
-          <h6>{this.props.project.description}</h6>
+          <h3>{this.props.project.title}</h3>
+          <h4 className="description">{this.props.project.description}</h4>
         </div>
       </div>
     );

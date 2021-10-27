@@ -41,7 +41,10 @@ $white: #ffffff;
         align-items: center;
         color: white;
         position: relative;
-        top: 30%;
+        top: 25%;
+        .description {
+          font-weight: 300;
+        }
       }
     }
   }
