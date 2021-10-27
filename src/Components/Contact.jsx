@@ -7,10 +7,12 @@ class Contact extends Component {
     return (
       <div className="contact-section" id="contact-section">
         <div className="col-xs-12 col-sm-6 bckgrd-purple title-section">
-          <div className="title-container">
-            <h1>Contact</h1>
+          <div className="title-wrapper">
+            <div className="title-container">
+              <h1>Contact</h1>
+            </div>
+            <Menu />
           </div>
-          <Menu />
         </div>
         <div className="col-xs-12 col-sm-6 bckgrd-white">
           <h3>I love meeting new people</h3>
