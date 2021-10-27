@@ -18,6 +18,18 @@
       padding: 48px;
     }
   }
+  .content-container {
+    .signature {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    p {
+      padding-top: 32px;
+      &.title {
+        margin-bottom: 8px;
+      }
+    }
+  }
 }
 
 @keyframes grain {
