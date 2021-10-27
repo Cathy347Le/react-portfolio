@@ -23,7 +23,7 @@ class Work extends Component {
           description:
             "Interactive and creative website using parallax, animations, and hover effects",
           backgroundImage: "../images/project-acaai.jpeg",
-          linkURL: "https://www.gmmb.com/",
+          linkURL: "https://acaai.org/",
         },
         {
           id: 3,
