@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-import Menu from "./Menu";
 
 class Project extends Component {
   render() {
+    console.log(this.props);
     return (
       <div
         className="project-item-container"
         style={{
-          backgroundImage: `url(/static/media/project-kuni.6b0fabe3.jpg)`,
+          backgroundImage: `url(../Images/project-acaai.jpeg)`,
         }}
       >
         <div className="project-content">
-          <h2>Kuni Foundation</h2>
-          <h6>Wordpress website built with accessibility in mind</h6>
+          <h2>{this.props.project.title}</h2>
+          <h6>{this.props.project.description}</h6>
         </div>
       </div>
     );
