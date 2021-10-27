@@ -13,11 +13,36 @@ class About extends Component {
           <Menu />
         </div>
         <div className="col-xs-12 col-sm-6 bckgrd-white">
-          <h3>About Content</h3>
-          <p>
-            I’m always open to discussing new projects, creative ideas or
-            opportunities to be a part of your team. Feel free to email me.
-          </p>
+          <div className="content-container">
+            <h3>Hello, my name is Cathy Le.</h3>
+            <p>
+              I am a full stack software engineer, and formerly a political
+              research data analyst at Greenberg Quinlan Rosner, which is a
+              political polling and consulting firm. As a software engineer, I
+              enjoying breaking down complex problems and presenting simple
+              user-friendly solutions. I believe technology should be enjoyable
+              and easy to use!
+            </p>
+            <p>
+              Similar to the tech industry, the polling industry relies on good
+              coordination. I take pride in knowing how to work with people of
+              different skillsets, personalities, and backgrounds to accomplish
+              the task at hand.
+            </p>
+            <p>
+              While I excel at solving problems on my own, I am most fulfilled
+              when collaborating with others to find solutions. I believe
+              accomplishments and success are better experienced when you get to
+              share them with others.
+            </p>
+            <p>
+              In my free time, I enjoy hosting dinner parties, watching the San
+              Francisco 49ers and Giants on TV, gardening, and spending time
+              with my labradoodle named Gouda. When I’m not coding, I’m probably
+              out with Gouda taking her for a walk or with friends at a
+              biergarten.
+            </p>
+          </div>
         </div>
       </div>
     );
