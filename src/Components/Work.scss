@@ -28,13 +28,11 @@ $white: #ffffff;
     width: 50%;
     float: right;
     .project-item-container {
-      // background-image: url(../Images/project-gmmb.jpeg);
-      // background-image: url(../Images/project-acaai.jpeg);
-      // background-image: url(../Images/project-kuni.jpg);
-      // background-color: lightgray;
       height: 100vh;
       background-position: center;
       background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
       .project-content {
         display: flex;
         flex-direction: column;
@@ -42,9 +40,31 @@ $white: #ffffff;
         color: white;
         position: relative;
         top: 25%;
+        max-width: 500px;
+        margin: auto;
+        text-align: center;
         .description {
           font-weight: 300;
         }
+      }
+      &:before {
+        content: " ";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: block;
+        height: 100%;
+        // background: linear-gradient(
+        //   180deg,
+        //   rgba(255, 255, 255, 0) 0,
+        //   rgba(0, 0, 0, 0.82) 100%
+        // );
+        background: linear-gradient(
+          180deg,
+          rgba(38, 38, 38, 0.7) 0,
+          rgba(255, 255, 255, 0) 80%
+        );
       }
     }
   }
