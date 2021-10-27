@@ -14,7 +14,7 @@ class Work extends Component {
           title: "GMMB",
           description:
             "Interactive and creative website using parallax, animations, and hover effects",
-          backgroundImage: "../Images/project-acaai.jpeg",
+          backgroundImage: "../images/project-gmmb.jpeg",
           linkURL: "https://www.gmmb.com/",
         },
         {
@@ -22,21 +22,21 @@ class Work extends Component {
           title: "American College of Allergy, Asthma, & Immunology",
           description:
             "Interactive and creative website using parallax, animations, and hover effects",
-          imageURL: "",
+          backgroundImage: "../images/project-acaai.jpeg",
           linkURL: "https://www.gmmb.com/",
         },
         {
           id: 3,
           title: "Kuni Foundation",
           description: "Wordpress website built with accessibility in mind",
-          backgroundImage: "",
+          backgroundImage: "../images/project-kuni.jpg",
           linkURL: "https://www.kunifoundation.org/",
         },
         {
           id: 4,
           title: "Talent Rewire",
           description: "One of the first websites I did at Social Driver",
-          backgroundImage: "",
+          backgroundImage: "../images/project-rewire.jpeg",
           linkURL: "https://www.talentrewire.org/",
         },
         {
@@ -44,7 +44,7 @@ class Work extends Component {
           title: "2018 U.S Senate elections",
           description:
             "My capstone project at GA to learn about D3 and SVGs. As a former research data analyst at a polling and consulting firm, I wanted to embrace my former career and learn how to built dynamic, interactive data visualizations.",
-          backgroundImage: "",
+          backgroundImage: "../images/project-elections.jpg",
           linkURL: "http://project-5-election-site.surge.sh/",
         },
       ],
