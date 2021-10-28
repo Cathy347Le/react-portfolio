@@ -6,7 +6,6 @@
   position: relative;
   .col-sm-6 {
     flex: 50%;
-    padding: 48px;
     &.title-section {
       color: $white;
       position: relative;
@@ -18,7 +17,7 @@
       }
     }
     .content-container {
-      padding: 32px;
+      padding: 80px;
       a {
         color: $purple;
         &:hover {
