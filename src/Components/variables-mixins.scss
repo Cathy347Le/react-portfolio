@@ -8,7 +8,6 @@ $white: #ffffff;
 h2 {
   font-size: 36px;
   font-weight: 800;
-  // line-height: 1.5px;
 }
 
 h3 {
@@ -46,38 +45,4 @@ p {
 
 .bckgrd-white {
   background-color: $white;
-}
-
-.about-section,
-.contact-section {
-  height: 100vh;
-  display: flex;
-  position: relative;
-  .col-sm-6 {
-    flex: 50%;
-    padding: 48px;
-    &.title-section {
-      color: $white;
-      .title-container {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        text-align: center;
-      }
-    }
-    .menu-container {
-      position: relative;
-      top: calc(100% - 73px);
-      text-align: center;
-    }
-    .content-container {
-      padding: 32px;
-      a {
-        color: $purple;
-        &:hover {
-          color: $dark-purple;
-        }
-      }
-    }
-  }
 }

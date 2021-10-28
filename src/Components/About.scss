@@ -1,9 +1,41 @@
 @import "./variables-mixins.scss";
 
 .about-section {
-  .content-container {
-    h3 {
-      margin-bottom: 24px;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  .col-sm-6 {
+    flex: 50%;
+    padding: 48px;
+    &.title-section {
+      color: $white;
+      position: relative;
+      .about-details-wrap {
+        position: relative;
+        top: 45%;
+        // transform: translateY(-50%);
+        text-align: center;
+        .profile-container {
+          margin-top: 10%;
+          .profile-image {
+            width: 20%;
+            border-radius: 50%;
+            z-index: 1;
+          }
+        }
+      }
+    }
+    .content-container {
+      padding: 32px;
+      h3 {
+        margin-bottom: 24px;
+      }
+      a {
+        color: $purple;
+        &:hover {
+          color: $dark-purple;
+        }
+      }
     }
   }
 }

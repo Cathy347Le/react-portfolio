@@ -1,14 +1,24 @@
 import React, { Component } from "react";
 import "./About.scss";
 import Menu from "./Menu";
+import profileImage from "../images/profile_pic.jpeg";
 
 class About extends Component {
   render() {
     return (
       <div className="about-section" id="about-section">
         <div className="col-xs-12 col-sm-6 bckgrd-black title-section">
-          <div className="title-container">
-            <h1>About</h1>
+          <div className="about-details-wrap">
+            <div className="title-container">
+              <h1>About</h1>
+            </div>
+            <div className="profile-container">
+              <img
+                class="profile-image"
+                src={profileImage}
+                alt="Cathy's head shot"
+              />
+            </div>
           </div>
           <Menu />
         </div>

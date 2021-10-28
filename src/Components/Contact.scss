@@ -1,6 +1,35 @@
 @import "./variables-mixins.scss";
 
 .contact-section {
+  height: 100vh;
+  display: flex;
+  position: relative;
+  .col-sm-6 {
+    flex: 50%;
+    padding: 48px;
+    &.title-section {
+      color: $white;
+      position: relative;
+      .title-container {
+        position: relative;
+        top: 45%;
+        // transform: translateY(-50%);
+        text-align: center;
+      }
+    }
+    .content-container {
+      padding: 32px;
+      a {
+        color: $purple;
+        &:hover {
+          color: $dark-purple;
+        }
+      }
+    }
+  }
+}
+
+.contact-section {
   .title-section {
     padding: 0;
     &::before {
