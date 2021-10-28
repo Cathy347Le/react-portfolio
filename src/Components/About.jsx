@@ -17,11 +17,14 @@ class About extends Component {
             <h3>Hello, my name is Cathy Le.</h3>
             <p>
               I am a full stack software engineer, and formerly a political
-              research data analyst at Greenberg Quinlan Rosner, which is a
-              political polling and consulting firm. As a software engineer, I
-              enjoying breaking down complex problems and presenting simple
-              user-friendly solutions. I believe technology should be enjoyable
-              and easy to use!
+              research data analyst at{" "}
+              <a href="https://www.gqrr.com/" target="_blank" rel="noreferrer">
+                Greenberg Quinlan Rosner
+              </a>
+              , which is a political polling and consulting firm. As a software
+              engineer, I enjoying breaking down complex problems and presenting
+              simple user-friendly solutions. I believe technology should be
+              enjoyable and easy to use!
             </p>
             <p>
               Similar to the tech industry, the polling industry relies on good

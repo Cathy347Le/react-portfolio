@@ -1,3 +1,4 @@
+$dark-purple: #551a8b;
 $electric-purple: #8703f4;
 //primary purple - neon purple
 $purple: #b026ff;
@@ -73,6 +74,9 @@ p {
       padding: 32px;
       a {
         color: $purple;
+        &:hover {
+          color: $dark-purple;
+        }
       }
     }
   }
