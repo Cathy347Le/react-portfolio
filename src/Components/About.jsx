@@ -18,6 +18,8 @@ class About extends Component {
                 src={profileImage}
                 alt="Cathy's head shot"
               />
+              <span></span>
+              <span></span>
             </div>
           </div>
           <Menu />

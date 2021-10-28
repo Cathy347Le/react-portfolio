@@ -16,11 +16,36 @@
         // transform: translateY(-50%);
         text-align: center;
         .profile-container {
-          margin-top: 10%;
+          background: $purple;
+          height: 132px;
+          width: 132px;
+          border-radius: 50%;
+          margin: 10% auto 0 auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
           .profile-image {
-            width: 20%;
+            height: 120px;
+            width: 120px;
             border-radius: 50%;
             z-index: 1;
+          }
+          span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100%;
+            width: 100%;
+            background: inherit;
+            border-radius: 50%;
+          }
+          span:nth-child(1) {
+            filter: blur(7px);
+          }
+          span:nth-child(2) {
+            filter: blur(14px);
           }
         }
       }
