@@ -26,7 +26,9 @@ class About extends Component {
         </div>
         <div className="col-xs-12 col-sm-6 bckgrd-white">
           <div className="content-container">
-            <h3>Hello, my name is Cathy Le.</h3>
+            <h3 className="outline-shadow-effect">
+              Hello, my name is Cathy Le.
+            </h3>
             <p>
               I am a full stack software engineer, and formerly a political
               research data analyst at{" "}
