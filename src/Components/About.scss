@@ -51,7 +51,7 @@
       &::before {
         content: "";
         position: absolute;
-        opacity: 0.9;
+        opacity: 0.7;
         mix-blend-mode: soft-light;
         animation: grain 0.4s steps(1) infinite;
         height: 100vh;
