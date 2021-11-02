@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Menu.scss";
+import resume from "../images/Cathy-Le-Resume.pdf";
 
 class Menu extends Component {
   render() {
@@ -13,7 +14,9 @@ class Menu extends Component {
             <a href="#work-section">Work</a>
           </li>
           <li>
-            <a href="#resume-section">Resume</a>
+            <a href={resume} target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </li>
           <li>
             <a href="#contact-section">Contact</a>
