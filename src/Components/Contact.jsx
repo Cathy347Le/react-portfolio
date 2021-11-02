@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import "./Contact.scss";
 import Menu from "./Menu";
 
@@ -31,6 +33,9 @@ class Contact extends Component {
             >
               Cathy347Le@gmail.com
             </a>
+            <div className="social-icons-container">
+              <FontAwesomeIcon icon={faFacebookF} />
+            </div>
           </div>
         </div>
       </div>
