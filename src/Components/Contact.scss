@@ -79,3 +79,85 @@
     background-position: 0% 100%;
   }
 }
+
+.social-icons-container {
+  display: flex;
+  flex-direction: row;
+  margin: 3em -1em;
+  .btn {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    background-color: #fafafa;
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 8px;
+    a {
+      height: 100%;
+      width: 100%;
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        font-size: 24px;
+      }
+    }
+  }
+  .btn {
+    &.fb-btn {
+      box-shadow: 0 20px 20px -17px rgba(14, 118, 168, 0.6);
+      a {
+        color: #0e76a8 !important;
+        svg {
+          filter: drop-shadow(1px 1px 8px #0e76a8);
+        }
+      }
+      &:hover {
+        transform: scale(1.2);
+        box-shadow: 0 30px 45px -15px rgba(14, 118, 168, 0.7);
+      }
+    }
+    &.ig-btn {
+      box-shadow: 0 20px 20px -17px rgba(9, 1, 8, 0.6);
+      a {
+        color: #090108 !important;
+        svg {
+          filter: drop-shadow(1px 1px 8px #090108);
+        }
+      }
+      &:hover {
+        transform: scale(1.2);
+        box-shadow: 0 30px 45px -15px rgba(9, 1, 8, 0.7);
+      }
+    }
+    &.tw-btn {
+      box-shadow: 0 20px 20px -17px rgba(176, 38, 255, 0.6);
+      a {
+        color: #b026ff !important;
+        svg {
+          filter: drop-shadow(1px 1px 8px #b026ff);
+        }
+      }
+      &:hover {
+        transform: scale(1.2);
+        box-shadow: 0 30px 45px -15px rgba(176, 38, 255, 0.7);
+      }
+    }
+  }
+
+  // svg.fa-facebook-f {
+  //   color: #006fff;
+  //   filter: drop-shadow(1px 1px 9px #006fff);
+  // }
+  // svg.fa-instagram {
+  //   color: orange;
+  //   filter: drop-shadow(1px 1px 10px orange);
+  // }
+  // svg.fa-twitter {
+  //   color: red;
+  //   filter: drop-shadow(1px 1px 10px red);
+  // }
+}

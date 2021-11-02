@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./Contact.scss";
 import Menu from "./Menu";
 
@@ -34,7 +39,33 @@ class Contact extends Component {
               Cathy347Le@gmail.com
             </a>
             <div className="social-icons-container">
-              <FontAwesomeIcon icon={faFacebookF} />
+              <div className="btn fb-btn">
+                <a
+                  href="https://www.linkedin.com/in/cathyxle/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon icon={faLinkedinIn} />
+                </a>
+              </div>
+              <div className="btn ig-btn">
+                <a
+                  href="https://github.com/Cathy347Le"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </div>
+              <div className="btn tw-btn">
+                <a
+                  href="mailto:CAthy347Le@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
