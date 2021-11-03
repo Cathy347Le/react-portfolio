@@ -3,6 +3,9 @@
 .hero-section {
   background-color: $purple;
   height: 100vh;
+  .menu-container ul {
+    color: white;
+  }
 }
 
 // .hero-animation-container {
@@ -41,32 +44,26 @@
   .box1 {
     right: 1em;
     bottom: 4em;
-    width: calc(100% + 10rem);
+    width: calc(100% + 10em);
   }
-  .box2 {
-    bottom: 7em;
-    width: 50%;
-    left: 45%;
-  }
+  // .box2 {
+  // }
   .box3 {
-    left: 5em;
+    left: 4em;
     bottom: 1em;
+    height: calc(100% + 6em);
   }
   .box4 {
-    top: 7em;
+    top: 15em;
     right: 7em;
   }
   .box6 {
-    top: 3em;
+    top: 9em;
     left: 10em;
   }
   // .box8 {
-  //   top: 3rem;
-  //   right: 10rem;
   // }
   // .box9 {
-  //   top: 6rem;
-  //   left: 1rem;
   // }
 }
 

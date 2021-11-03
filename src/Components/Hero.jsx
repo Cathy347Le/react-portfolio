@@ -8,7 +8,7 @@ class Hero extends Component {
       <div className="hero-section">
         <div className="hero-animation-container">
           <div className="box box1"></div>
-          <div className="box box2"></div>
+          <div className="box box2 hidden-box"></div>
           <div className="box box3"></div>
           <div className="box box4"></div>
           <div className="box box5 main-box">
