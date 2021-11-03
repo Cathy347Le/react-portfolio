@@ -4,3 +4,124 @@
   background-color: $purple;
   height: 100vh;
 }
+
+// .hero-animation-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   min-height: 100vh;
+// }
+
+.hero-animation-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .hero-animation-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box:not(.main-box) {
+      display: none;
+    }
+    .main-box {
+      height: 100vh;
+      width: 100%;
+    }
+  }
+}
+
+.hero-animation-container {
+  .box1 {
+    right: 1em;
+    bottom: 4em;
+    width: calc(100% + 10rem);
+  }
+  .box2 {
+    bottom: 7em;
+    width: 50%;
+    left: 45%;
+  }
+  .box3 {
+    left: 5em;
+    bottom: 1em;
+  }
+  .box4 {
+    top: 7em;
+    right: 7em;
+  }
+  .box6 {
+    top: 3em;
+    left: 10em;
+  }
+  // .box8 {
+  //   top: 3rem;
+  //   right: 10rem;
+  // }
+  // .box9 {
+  //   top: 6rem;
+  //   left: 1rem;
+  // }
+}
+
+.box:not(.hidden-box) {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $black;
+  overflow: hidden;
+  border-radius: 20px;
+  h1 {
+    position: relative;
+    color: white;
+    z-index: 10;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    background-color: $purple;
+    border-radius: 16px;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(#26e2ff, #ff2695);
+    animation: animate 4s linear infinite;
+  }
+}
+
+// .box::after {
+//   content: "";
+//   position: absolute;
+//   inset: 6px;
+//   background-color: $purple;
+//   border-radius: 16px;
+// }
+
+// .box::before {
+//   content: "";
+//   position: absolute;
+//   width: 150px;
+//   height: 140%;
+//   background: linear-gradient(#26e2ff, #ff2695);
+//   animation: animate 4s linear infinite;
+// }
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

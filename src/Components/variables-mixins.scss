@@ -5,6 +5,10 @@ $purple: #b026ff;
 $black: #090108;
 $white: #ffffff;
 
+h1 {
+  font-size: clamp(36px, 5vw, 80px);
+}
+
 h2 {
   font-size: 36px;
   font-weight: 800;
