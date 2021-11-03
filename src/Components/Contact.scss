@@ -7,12 +7,12 @@
   .col-sm-6 {
     flex: 50%;
     &.title-section {
+      background-color: $purple;
       color: $white;
       position: relative;
       .title-container {
         position: relative;
         top: 45%;
-        // transform: translateY(-50%);
         text-align: center;
       }
     }
@@ -147,17 +147,4 @@
       }
     }
   }
-
-  // svg.fa-facebook-f {
-  //   color: #006fff;
-  //   filter: drop-shadow(1px 1px 9px #006fff);
-  // }
-  // svg.fa-instagram {
-  //   color: orange;
-  //   filter: drop-shadow(1px 1px 10px orange);
-  // }
-  // svg.fa-twitter {
-  //   color: red;
-  //   filter: drop-shadow(1px 1px 10px red);
-  // }
 }
