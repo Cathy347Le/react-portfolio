@@ -8,13 +8,6 @@
   }
 }
 
-// .hero-animation-container {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   min-height: 100vh;
-// }
-
 .hero-animation-container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -46,8 +39,6 @@
     bottom: 4em;
     width: calc(100% + 10em);
   }
-  // .box2 {
-  // }
   .box3 {
     left: 4em;
     bottom: 1em;
@@ -61,10 +52,6 @@
     top: 9em;
     left: 10em;
   }
-  // .box8 {
-  // }
-  // .box9 {
-  // }
 }
 
 .box:not(.hidden-box) {
@@ -90,29 +77,18 @@
   &:before {
     content: "";
     position: absolute;
-    width: 150px;
-    height: 140%;
-    background: linear-gradient(#26e2ff, #ff2695);
-    animation: animate 4s linear infinite;
+    width: 150%;
+    height: 50%;
+    background: linear-gradient(
+      90deg,
+      #26e2ff 0,
+      #26e2ff 50%,
+      #ff2695 50%,
+      #ff2695 100%
+    );
+    animation: animate 5s linear infinite;
   }
 }
-
-// .box::after {
-//   content: "";
-//   position: absolute;
-//   inset: 6px;
-//   background-color: $purple;
-//   border-radius: 16px;
-// }
-
-// .box::before {
-//   content: "";
-//   position: absolute;
-//   width: 150px;
-//   height: 140%;
-//   background: linear-gradient(#26e2ff, #ff2695);
-//   animation: animate 4s linear infinite;
-// }
 
 @keyframes animate {
   0% {
