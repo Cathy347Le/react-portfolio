@@ -1,7 +1,7 @@
 @import "./variables-mixins.scss";
 
 .hero-section {
-  background-color: $purple;
+  background-color: $primary-purple;
   height: 100vh;
   .menu-container ul {
     color: white;
@@ -71,7 +71,7 @@
     content: "";
     position: absolute;
     inset: 6px;
-    background-color: $purple;
+    background-color: $primary-purple;
     border-radius: 16px;
   }
   &:before {

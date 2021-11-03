@@ -7,7 +7,7 @@
   .col-sm-6 {
     flex: 50%;
     &.title-section {
-      background-color: $purple;
+      background-color: $primary-purple;
       color: $white;
       position: relative;
       .title-container {
@@ -19,7 +19,7 @@
     .content-container {
       padding: 80px;
       a {
-        color: $purple;
+        color: $primary-purple;
         &:hover {
           color: $dark-purple;
         }

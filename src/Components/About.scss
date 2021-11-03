@@ -15,7 +15,7 @@
         top: 45%;
         text-align: center;
         .profile-container {
-          background: $purple;
+          background: $primary-purple;
           height: 132px;
           width: 132px;
           border-radius: 50%;
@@ -65,7 +65,7 @@
         margin-bottom: 24px;
       }
       a {
-        color: $purple;
+        color: $primary-purple;
         &:hover {
           color: $dark-purple;
         }

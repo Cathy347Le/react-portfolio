@@ -1,8 +1,4 @@
-$purple: #b026ff;
-// $neon-purple: #c581fe;
-$neon-purple: #b026ff;
-$black: #090108;
-$white: #ffffff;
+@import "./variables-mixins.scss";
 
 .work-section {
   .title-section {
@@ -10,7 +6,7 @@ $white: #ffffff;
     height: 100vh;
     width: 50% !important;
     float: left !important;
-    color: $purple;
+    color: $primary-purple;
     padding: 48px;
     .title-container {
       position: relative;
@@ -57,10 +53,10 @@ $white: #ffffff;
           }
 
           a:hover {
-            background: $purple;
+            background: $primary-purple;
             color: #fff;
-            box-shadow: 0 0 0px $purple, 0 0 25px $purple, 0 0 50px $purple,
-              0 0 100px $purple;
+            box-shadow: 0 0 0px $primary-purple, 0 0 25px $primary-purple,
+              0 0 50px $primary-purple, 0 0 100px $primary-purple;
           }
 
           a span {
@@ -73,7 +69,7 @@ $white: #ffffff;
             left: -100%;
             width: 100%;
             height: 4px;
-            background: linear-gradient(90deg, transparent, $neon-purple);
+            background: linear-gradient(90deg, transparent, $primary-purple);
             animation: btn-anim1 1s linear infinite;
           }
 
@@ -92,7 +88,7 @@ $white: #ffffff;
             right: 0;
             width: 4px;
             height: 100%;
-            background: linear-gradient(180deg, transparent, $neon-purple);
+            background: linear-gradient(180deg, transparent, $primary-purple);
             animation: btn-anim2 1s linear infinite;
             animation-delay: 0.25s;
           }
@@ -112,7 +108,7 @@ $white: #ffffff;
             right: -100%;
             width: 100%;
             height: 4px;
-            background: linear-gradient(270deg, transparent, $neon-purple);
+            background: linear-gradient(270deg, transparent, $primary-purple);
             animation: btn-anim3 1s linear infinite;
             animation-delay: 0.5s;
           }
@@ -132,7 +128,7 @@ $white: #ffffff;
             left: 0;
             width: 4px;
             height: 100%;
-            background: linear-gradient(360deg, transparent, $neon-purple);
+            background: linear-gradient(360deg, transparent, $primary-purple);
             animation: btn-anim4 1s linear infinite;
             animation-delay: 0.75s;
           }
@@ -166,9 +162,9 @@ $white: #ffffff;
   }
   .menu-container {
     ul li a {
-      color: $purple;
+      color: $primary-purple;
       &:hover {
-        border-bottom: 2px solid $purple;
+        border-bottom: 2px solid $primary-purple;
       }
     }
   }
