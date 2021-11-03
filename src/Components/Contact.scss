@@ -1,11 +1,25 @@
 @import "./variables-mixins.scss";
 
+@media (min-width: 768px) {
+  .contact-section {
+    display: flex;
+    .col-sm-6 {
+      flex: 50%;
+      &.title-section {
+        &::before {
+          width: 50vw;
+        }
+      }
+    }
+  }
+}
+
 .contact-section {
   height: 100vh;
-  display: flex;
+  // display: flex;
   position: relative;
   .col-sm-6 {
-    flex: 50%;
+    // flex: 50%;
     &.title-section {
       background-color: $primary-purple;
       color: $white;
@@ -38,7 +52,7 @@
       mix-blend-mode: soft-light;
       animation: grain 0.4s steps(1) infinite;
       height: 100vh;
-      width: 50vw;
+      width: 100%;
       background-image: url(../images/noise-256w.png);
     }
     .title-wrapper {

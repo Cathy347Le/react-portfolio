@@ -10,7 +10,7 @@ class About extends Component {
         <div className="col-xs-12 col-sm-6 bckgrd-black title-section">
           <div className="about-details-wrap">
             <div className="title-container">
-              <h1>About</h1>
+              <h2>About</h2>
             </div>
             <div className="profile-container">
               <img

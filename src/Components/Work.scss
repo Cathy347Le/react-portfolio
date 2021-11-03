@@ -1,11 +1,30 @@
 @import "./variables-mixins.scss";
 
+@media (min-width: 768px) {
+  .work-section {
+    .title-section {
+      width: 50% !important;
+      float: left !important;
+    }
+    .projects-section {
+      width: 50%;
+      float: right;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .work-section .title-section {
+    position: static !important;
+  }
+}
+
 .work-section {
   .title-section {
     background-color: $white;
     height: 100vh;
-    width: 50% !important;
-    float: left !important;
+    // width: 50% !important;
+    // float: left !important;
     color: $primary-purple;
     padding: 48px;
     .title-container {
@@ -15,8 +34,6 @@
     }
   }
   .projects-section {
-    width: 50%;
-    float: right;
     .project-item-container {
       height: 100vh;
       background-position: center;
