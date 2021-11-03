@@ -29,7 +29,7 @@ class About extends Component {
             <h3 className="outline-shadow-effect">
               Hello, my name is Cathy Le.
             </h3>
-            <p>
+            {/* <p>
               I am a full stack software engineer, and formerly a political
               research data analyst at{" "}
               <a href="https://www.gqrr.com/" target="_blank" rel="noreferrer">
@@ -39,8 +39,8 @@ class About extends Component {
               engineer, I enjoying breaking down complex problems and presenting
               simple user-friendly solutions. I believe technology should be
               enjoyable and easy to use!
-            </p>
-            <p>
+            </p> */}
+            {/* <p>
               Similar to the tech industry, the polling industry relies on good
               coordination. I take pride in knowing how to work with people of
               different skillsets, personalities, and backgrounds to accomplish
@@ -58,7 +58,7 @@ class About extends Component {
               with my labradoodle named Gouda. When I’m not coding, I’m probably
               out with Gouda taking her for a walk or with friends at a
               biergarten.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

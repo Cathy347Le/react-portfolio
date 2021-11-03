@@ -15,36 +15,11 @@
 }
 
 .contact-section {
-  height: 100vh;
-  // display: flex;
-  position: relative;
-  .col-sm-6 {
-    // flex: 50%;
-    &.title-section {
-      background-color: $primary-purple;
-      color: $white;
-      position: relative;
-      .title-container {
-        position: relative;
-        top: 45%;
-        text-align: center;
-      }
-    }
-    .content-container {
-      padding: 80px;
-      a {
-        color: $primary-purple;
-        &:hover {
-          color: $dark-purple;
-        }
-      }
-    }
-  }
-}
-
-.contact-section {
   .title-section {
     padding: 0;
+    background-color: $primary-purple;
+    color: $white;
+    position: relative;
     &::before {
       content: "";
       position: absolute;
@@ -58,9 +33,15 @@
     .title-wrapper {
       height: 100vh;
       padding: 48px;
+      .title-container {
+        position: relative;
+        top: 45%;
+        text-align: center;
+      }
     }
   }
   .content-container {
+    padding: 80px;
     .signature {
       font-size: 22px;
       font-weight: 700;
@@ -70,6 +51,12 @@
       &.title {
         padding-top: 16px;
         margin-bottom: 4px;
+      }
+    }
+    a {
+      color: $primary-purple;
+      &:hover {
+        color: $dark-purple;
       }
     }
   }
