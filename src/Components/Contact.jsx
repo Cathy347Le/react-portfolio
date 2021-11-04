@@ -35,7 +35,7 @@ class Contact extends Component {
               Cathy347Le@gmail.com
             </a>
             <div className="social-icons-container">
-              <div className="btn fb-btn">
+              <div className="btn ln-btn">
                 <a
                   href="https://www.linkedin.com/in/cathyxle/"
                   target="_blank"
@@ -44,7 +44,7 @@ class Contact extends Component {
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
               </div>
-              <div className="btn ig-btn">
+              <div className="btn gh-btn">
                 <a
                   href="https://github.com/Cathy347Le"
                   target="_blank"
@@ -53,7 +53,7 @@ class Contact extends Component {
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
               </div>
-              <div className="btn tw-btn">
+              <div className="btn gm-btn">
                 <a
                   href="mailto:CAthy347Le@gmail.com"
                   target="_blank"
