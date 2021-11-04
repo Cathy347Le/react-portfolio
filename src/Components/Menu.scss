@@ -11,11 +11,11 @@
     list-style-type: none;
     li {
       display: inline-block;
-      padding: 8px 0px;
+      padding: 0.5rem 0;
       &:not(:first-child) {
         &:before {
           content: "/";
-          padding: 0px 16px;
+          padding: 0 1rem;
         }
       }
       a {
