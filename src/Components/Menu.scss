@@ -29,4 +29,10 @@
       }
     }
   }
+  li {
+    font-size: clamp(16px, 1vw, 24px);
+    a {
+      font-size: clamp(16px, 1vw, 24px);
+    }
+  }
 }
