@@ -14,7 +14,7 @@ class About extends Component {
             </div>
             <div className="profile-container">
               <img
-                class="profile-image"
+                className="profile-image"
                 src={profileImage}
                 alt="Cathy's head shot"
               />
