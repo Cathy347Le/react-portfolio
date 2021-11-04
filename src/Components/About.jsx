@@ -26,8 +26,8 @@ class About extends Component {
               <span></span>
               <span></span>
             </div>
-            <Menu />
           </div>
+          <Menu />
         </div>
         {/* </Sticky> */}
         <div
