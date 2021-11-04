@@ -49,7 +49,7 @@
     .content-container {
       padding: 13% 10%;
       @media (max-width: 767px) {
-        padding: 6rem 3rem;
+        padding: 6rem 2.5rem;
       }
       .signature {
         font-weight: 700;
@@ -93,7 +93,7 @@
 .social-icons-container {
   display: flex;
   flex-direction: row;
-  margin: 3em -1em;
+  margin: 3em -1.2em;
   .btn {
     display: flex;
     // width: 64px;

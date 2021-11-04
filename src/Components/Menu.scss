@@ -16,6 +16,9 @@
         &:before {
           content: "/";
           padding: 0 1rem;
+          @media (max-width: 767px) {
+            padding: 0 0.6rem;
+          }
         }
       }
       a {
