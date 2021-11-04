@@ -17,7 +17,7 @@ class Contact extends Component {
             <Menu />
           </div>
         </div>
-        <div className="col-xs-12 col-sm-6 bckgrd-white">
+        <div className="col-xs-12 col-sm-6 bckgrd-white content-section">
           <div className="content-container">
             <h3>I love meeting new people</h3>
             <h3>just say hello.</h3>

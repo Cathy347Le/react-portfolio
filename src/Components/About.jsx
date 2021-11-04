@@ -8,7 +8,7 @@ class About extends Component {
     return (
       <div className="about-section" id="about-section">
         <div className="col-xs-12 col-sm-6 bckgrd-black title-section">
-          <div className="about-details-wrap">
+          <div className="title-wrapper">
             <div className="title-container">
               <h2>About</h2>
             </div>
@@ -21,15 +21,15 @@ class About extends Component {
               <span></span>
               <span></span>
             </div>
+            <Menu />
           </div>
-          <Menu />
         </div>
-        <div className="col-xs-12 col-sm-6 bckgrd-white">
+        <div className="col-xs-12 col-sm-6 bckgrd-white content-section">
           <div className="content-container">
             <h3 className="outline-shadow-effect">
               Hello, my name is Cathy Le.
             </h3>
-            {/* <p>
+            <p>
               I am a full stack software engineer, and formerly a political
               research data analyst at{" "}
               <a href="https://www.gqrr.com/" target="_blank" rel="noreferrer">
@@ -39,8 +39,8 @@ class About extends Component {
               engineer, I enjoying breaking down complex problems and presenting
               simple user-friendly solutions. I believe technology should be
               enjoyable and easy to use!
-            </p> */}
-            {/* <p>
+            </p>
+            <p>
               Similar to the tech industry, the polling industry relies on good
               coordination. I take pride in knowing how to work with people of
               different skillsets, personalities, and backgrounds to accomplish
@@ -58,7 +58,7 @@ class About extends Component {
               with my labradoodle named Gouda. When I’m not coding, I’m probably
               out with Gouda taking her for a walk or with friends at a
               biergarten.
-            </p> */}
+            </p>
           </div>
         </div>
       </div>

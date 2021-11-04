@@ -3,6 +3,7 @@
 @media (min-width: 768px) {
   .about-section {
     display: flex;
+    height: 100vh;
     .col-sm-6 {
       flex: 50%;
       &.title-section {
@@ -17,63 +18,72 @@
 .about-section {
   // height: 100vh;
   // position: relative;
-  .col-sm-6 {
-    &.title-section {
-      // height: 100vh;
-      background-color: #262626;
-      color: $white;
+  .title-section {
+    // height: 100vh;
+    background-color: #262626;
+    color: $white;
+    position: relative;
+    .title-wrapper {
+      height: 100vh;
       position: relative;
-      .about-details-wrap {
+      padding: 48px;
+      .title-container {
         position: relative;
         top: 45%;
         text-align: center;
-        .profile-container {
-          background: $primary-purple;
-          height: 132px;
-          width: 132px;
+      }
+      .profile-container {
+        background: $primary-purple;
+        height: 132px;
+        width: 132px;
+        border-radius: 50%;
+        margin: 10% auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 45px;
+        .profile-image {
+          height: 120px;
+          width: 120px;
           border-radius: 50%;
-          margin: 10% auto 0 auto;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          position: relative;
-          .profile-image {
-            height: 120px;
-            width: 120px;
-            border-radius: 50%;
-            z-index: 1;
-          }
-          span {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 100%;
-            width: 100%;
-            background: inherit;
-            border-radius: 50%;
-          }
-          span:nth-child(1) {
-            filter: blur(7px);
-          }
-          span:nth-child(2) {
-            filter: blur(14px);
-          }
+          z-index: 1;
+        }
+        span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          height: 100%;
+          width: 100%;
+          background: inherit;
+          border-radius: 50%;
+        }
+        span:nth-child(1) {
+          filter: blur(7px);
+        }
+        span:nth-child(2) {
+          filter: blur(14px);
         }
       }
-      &::before {
-        content: "";
-        position: absolute;
-        opacity: 0.7;
-        mix-blend-mode: soft-light;
-        animation: grain 0.4s steps(1) infinite;
-        height: 100vh;
-        width: 100%;
-        background-image: url(../images/noise-256w.png);
-      }
     }
+    &::before {
+      content: "";
+      position: absolute;
+      opacity: 0.7;
+      mix-blend-mode: soft-light;
+      animation: grain 0.4s steps(1) infinite;
+      height: 100vh;
+      width: 100%;
+      background-image: url(../images/noise-256w.png);
+    }
+  }
+}
+
+.about-section {
+  .content-section {
     .content-container {
-      padding: 80px;
+      padding: 5rem;
       h3 {
         margin-bottom: 24px;
       }

@@ -3,6 +3,7 @@
 @media (min-width: 768px) {
   .contact-section {
     display: flex;
+    height: 100vh;
     .col-sm-6 {
       flex: 50%;
       &.title-section {
@@ -40,23 +41,28 @@
       }
     }
   }
-  .content-container {
-    padding: 80px;
-    .signature {
-      font-size: 22px;
-      font-weight: 700;
-    }
-    p {
-      padding-top: 32px;
-      &.title {
-        padding-top: 16px;
-        margin-bottom: 4px;
+}
+
+.contact-section {
+  .content-section {
+    .content-container {
+      padding: 5rem;
+      .signature {
+        font-size: 22px;
+        font-weight: 700;
       }
-    }
-    a {
-      color: $primary-purple;
-      &:hover {
-        color: $dark-purple;
+      p {
+        padding-top: 32px;
+        &.title {
+          padding-top: 16px;
+          margin-bottom: 4px;
+        }
+      }
+      a {
+        color: $primary-purple;
+        &:hover {
+          color: $dark-purple;
+        }
       }
     }
   }
