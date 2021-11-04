@@ -10,6 +10,8 @@ class Hero extends Component {
           <div className="inner-box">
             <span className="lightbar bar1"></span>
             <span className="lightbar bar2"></span>
+            <span className="lightbar bar3"></span>
+            <span className="lightbar bar4"></span>
           </div>
         </div>
       </div>

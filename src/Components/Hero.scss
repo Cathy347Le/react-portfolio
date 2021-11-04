@@ -1,6 +1,12 @@
 @import "./variables-mixins.scss";
 
 .hero-section {
+  .menu-container ul {
+    color: white;
+  }
+}
+
+.hero-section {
   background-color: $black;
   height: 100vh;
   display: flex;
@@ -20,20 +26,7 @@
     width: 92%;
     position: relative;
     .lightbar {
-      // position: absolute;
-      // width: 3px;
-      // border-radius: 6px;
-      // background: white;
-      // box-shadow: 0 0 3px $primary-purple, 0 0 6px $primary-purple,
-      //   0 0 12px $primary-purple, 0 0 24px $primary-purple,
-      //   0 0 48px $primary-purple;
-      // animation: innerlightbar1 3s linear infinite;
-      // &.bar1 {
-      //   top: 0;
-      //   bottom: 0;
-      //   height: 100%;
-      //   animation: innerlightbar1 3s linear infinite;
-      // }
+      position: absolute;
       &.bar2 {
         width: 100%;
         height: 2px;
@@ -41,20 +34,19 @@
         box-shadow: 0 0 2px $primary-purple, 0 0 4px $primary-purple,
           0 0 8px $primary-purple, 0 0 16px $primary-purple,
           0 0 32px $primary-purple;
-        position: absolute;
         bottom: 0;
         left: 50%;
         transform: translate(-50%, -50%);
         &:before {
           content: "";
           position: absolute;
-          // bottom: -15px;
           bottom: -25px;
           left: 0px;
           width: 102%;
           height: 50px;
-          background: $black;
-          animation: innerlightbar1 6s linear forwards;
+          // background: $black;
+          background: green;
+          animation: innerlightbar1 6s linear infinite;
         }
       }
     }
@@ -69,11 +61,5 @@
   100% {
     left: 100%;
     width: 0;
-  }
-}
-
-.hero-section {
-  .menu-container ul {
-    color: white;
   }
 }
