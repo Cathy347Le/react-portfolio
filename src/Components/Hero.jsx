@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Hero.scss";
-import Menu from "./Menu";
+// import Menu from "./Menu";
 
 class Hero extends Component {
   render() {
