@@ -55,3 +55,7 @@ p {
 a {
   font-size: clamp(16px, 1vw, 24px);
 }
+
+.clearfix {
+  overflow: auto;
+}
