@@ -60,15 +60,15 @@
           a {
             position: relative;
             display: inline-block;
-            padding: 10px 20px;
+            padding: 1em 2em;
             color: white;
-            font-size: 16px;
+            font-size: clamp(14px, 1rem, 24px);
             font-weight: 400;
             text-decoration: none;
             text-transform: uppercase;
             overflow: hidden;
             transition: 0.5s;
-            margin-top: 24px;
+            margin-top: 32px;
             letter-spacing: 4px;
           }
 
