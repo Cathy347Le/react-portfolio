@@ -1,17 +1,47 @@
 @import "./variables-mixins.scss";
 
+// @media (min-width: 768px) {
+//   .about-section {
+//     display: flex;
+//     height: 100vh;
+//     .col-sm-6 {
+//       flex: 50%;
+//       &.title-section {
+//         &:before {
+//           width: 50vw;
+//         }
+//       }
+//     }
+//   }
+// }
+
 @media (min-width: 768px) {
   .about-section {
-    display: flex;
-    height: 100vh;
-    .col-sm-6 {
-      flex: 50%;
-      &.title-section {
-        &:before {
-          width: 50vw;
-        }
-      }
+    .title-section {
+      width: 50% !important;
+      float: left !important;
     }
+    .content-section {
+      width: 50%;
+      float: right;
+    }
+  }
+}
+
+.about-section {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .title-section {
+    z-index: 99;
+  }
+}
+
+.about-section {
+  .sticky-outer-wrapper {
+    height: 0 !important;
   }
 }
 
@@ -19,7 +49,7 @@
   // height: 100vh;
   // position: relative;
   .title-section {
-    // height: 100vh;
+    height: 100vh;
     background-color: #262626;
     color: $white;
     position: relative;
