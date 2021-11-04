@@ -50,6 +50,9 @@
         max-width: 500px;
         margin: auto;
         text-align: center;
+        @media (max-width: 767px) {
+          padding-inline: 3rem;
+        }
         .description {
           font-weight: 300;
         }
