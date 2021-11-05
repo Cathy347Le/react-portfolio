@@ -15,6 +15,14 @@
   .outer-box {
     height: 90%;
     width: 95%;
+    @media (max-width: 576px) {
+      height: 90%;
+      width: 88%;
+    }
+    @media (max-width: 768px) {
+      height: 92%;
+      width: 90%;
+    }
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,6 +107,14 @@
   .inner-box {
     height: 86%;
     width: 92%;
+    @media (max-width: 576px) {
+      height: 90%;
+      width: 86%;
+    }
+    @media (max-width: 768px) {
+      height: 92%;
+      width: 88%;
+    }
     position: relative;
     .innerlightbar {
       position: absolute;
