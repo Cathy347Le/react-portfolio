@@ -37,71 +37,68 @@
         bottom: 0;
         width: 3px;
         height: 100%;
-        animation: outerlightbar1 4s linear forwards reverse;
+        animation: outerlightbar1 4s linear forwards;
+        transform-origin: 0 100%;
       }
       &.bar2 {
         left: 0;
         bottom: 0;
         width: 100%;
         height: 3px;
-        animation: outerlightbar2 4s linear forwards reverse;
+        animation: outerlightbar2 4s linear forwards;
+        transform-origin: 100% 0;
       }
       &.bar3 {
         top: 0px;
         right: 0;
         width: 3px;
         height: 100%;
-        animation: outerlightbar3 4s linear forwards reverse;
+        animation: outerlightbar3 4s linear forwards;
+        transform-origin: 100% 0;
       }
       &.bar4 {
         top: 0;
         width: 100%;
         height: 3px;
-        animation: outerlightbar4 4s linear forwards reverse;
+        animation: outerlightbar4 4s linear forwards;
+        transform-origin: 0 100%;
       }
     }
   }
 }
 
-// @keyframes outerlightbar1 {
-//   0% {
-//     top: 0;
-//   }
-
-//   100% {
-//     top: 100%;
-//     height: 0;
-//   }
-// }
-// @keyframes outerlightbar2 {
-//   0% {
-//     left: 0;
-//   }
-//   100% {
-//     left: 100%;
-//     width: 0;
-//   }
-// }
-// @keyframes outerlightbar3 {
-//   0% {
-//     bottom: 0;
-//   }
-
-//   100% {
-//     bottom: 100%;
-//     height: 0;
-//   }
-// }
-// @keyframes outerlightbar4 {
-//   0% {
-//     right: 0;
-//   }
-
-//   100% {
-//     right: 100%;
-//     width: 0;
-//   }
-// }
+@keyframes outerlightbar1 {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+@keyframes outerlightbar2 {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+@keyframes outerlightbar3 {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+@keyframes outerlightbar4 {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
 
 .hero-section {
   .inner-box {
@@ -130,71 +127,68 @@
         bottom: 0;
         width: 3px;
         height: 100%;
-        animation: innerlightbar1 4s linear forwards reverse;
+        animation: innerlightbar1 4s linear forwards;
+        transform-origin: 0 0;
       }
       &.bar2 {
         left: 0;
         bottom: 0;
         width: 100%;
         height: 3px;
-        animation: innerlightbar2 4s linear forwards reverse;
+        animation: innerlightbar2 4s linear forwards;
+        transform-origin: 0 100%;
       }
       &.bar3 {
         top: 0px;
         right: 0;
         width: 3px;
         height: 100%;
-        animation: innerlightbar3 4s linear forwards reverse;
+        animation: innerlightbar3 4s linear forwards;
+        transform-origin: 0 100%;
       }
       &.bar4 {
         top: 0;
         width: 100%;
         height: 3px;
-        animation: innerlightbar4 4s linear forwards reverse;
+        animation: innerlightbar4 4s linear forwards;
+        transform-origin: 100% 0;
       }
     }
   }
 }
 
-// @keyframes innerlightbar1 {
-//   0% {
-//     bottom: 0;
-//   }
-
-//   100% {
-//     bottom: 100%;
-//     height: 0;
-//   }
-// }
-// @keyframes innerlightbar2 {
-//   0% {
-//     right: 0;
-//   }
-//   100% {
-//     right: 100%;
-//     width: 0;
-//   }
-// }
-// @keyframes innerlightbar3 {
-//   0% {
-//     top: 0;
-//   }
-
-//   100% {
-//     top: 100%;
-//     height: 0;
-//   }
-// }
-// @keyframes innerlightbar4 {
-//   0% {
-//     left: 0;
-//   }
-
-//   100% {
-//     left: 100%;
-//     width: 0;
-//   }
-// }
+@keyframes innerlightbar1 {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+@keyframes innerlightbar2 {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+@keyframes innerlightbar3 {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+@keyframes innerlightbar4 {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
 
 .hero-section {
   .inner-box {
