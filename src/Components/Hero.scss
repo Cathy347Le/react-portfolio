@@ -20,6 +20,9 @@
     align-items: center;
     justify-content: center;
   }
+}
+
+.hero-section {
   .inner-box {
     height: 86%;
     width: 92%;
@@ -27,81 +30,60 @@
     .innerlightbar {
       position: absolute;
       background: #fff;
-      box-shadow: 0 0 3px $primary-purple, 0 0 6px $primary-purple,
-        0 0 12px $primary-purple, 0 0 24px $primary-purple,
-        0 0 48px $primary-purple;
+      box-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
+        0 0 40px $primary-purple, 0 0 80px $primary-purple,
+        0 0 160px $primary-purple;
       &.bar1 {
         left: 0;
+        bottom: 0;
         width: 3px;
         height: 100%;
-        &:before {
-          content: "";
-          position: absolute;
-          bottom: 0px;
-          right: -30px;
-          width: 60px;
-          height: 102%;
-          background: $black;
-          // background: green;
-          animation: innerlightbar1 4s linear forwards;
-        }
+        animation: innerlightbar1 4s linear forwards reverse;
       }
       &.bar2 {
+        left: 0;
         bottom: 0;
         width: 100%;
         height: 3px;
-        &:before {
-          content: "";
-          position: absolute;
-          bottom: -30px;
-          left: 0px;
-          width: 102%;
-          height: 60px;
-          background: $black;
-          // background: green;
-          animation: innerlightbar2 4s linear forwards;
-          animation-delay: 4s;
-        }
+        animation: innerlightbar2 4s linear forwards reverse;
       }
       &.bar3 {
+        top: 0px;
         right: 0;
         width: 3px;
         height: 100%;
-        &:before {
-          content: "";
-          position: absolute;
-          top: 0px;
-          left: -30px;
-          width: 60px;
-          height: 102%;
-          background: $black;
-          // background: green;
-          animation: innerlightbar3 4s linear forwards;
-          animation-delay: 8s;
-        }
+        animation: innerlightbar3 4s linear forwards reverse;
       }
       &.bar4 {
         top: 0;
         width: 100%;
         height: 3px;
-        &:before {
-          content: "";
-          position: absolute;
-          bottom: -30px;
-          left: 3px;
-          width: 102%;
-          height: 60px;
-          background: $black;
-          // background: green;
-          animation: innerlightbar4 4s linear forwards;
-          animation-delay: 12s;
-        }
+        animation: innerlightbar4 4s linear forwards reverse;
       }
     }
   }
 }
 
 @keyframes innerlightbar1 {
+  0% {
+    bottom: 0;
+  }
+
+  100% {
+    bottom: 100%;
+    height: 0;
+  }
+}
+@keyframes innerlightbar2 {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 100%;
+    width: 0;
+  }
+}
+@keyframes innerlightbar3 {
   0% {
     top: 0;
   }
@@ -111,32 +93,13 @@
     height: 0;
   }
 }
-@keyframes innerlightbar2 {
+@keyframes innerlightbar4 {
   0% {
     left: 0;
   }
+
   100% {
     left: 100%;
-    width: 0;
-  }
-}
-@keyframes innerlightbar3 {
-  0% {
-    right: 0;
-  }
-
-  100% {
-    right: 100%;
-    height: 0;
-  }
-}
-@keyframes innerlightbar4 {
-  0% {
-    right: 0;
-  }
-
-  100% {
-    right: 100%;
     width: 0;
   }
 }
