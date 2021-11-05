@@ -12,15 +12,11 @@ class Hero extends Component {
           <span className="outerlightbar bar3"></span>
           <span className="outerlightbar bar4"></span>
           <div className="inner-box">
-            <div className="box">
+            <div className="hero-content-section">
               <div className="lightbarcontent"></div>
               <div className="coverlayer"></div>
               <h1>Cathy Le</h1>
               <h2>Software Engineer</h2>
-              <p>
-                Highly curious, and passionate about user experience. Technology
-                should be enjoyable and easy to use!
-              </p>
             </div>
             <Menu />
             <span className="innerlightbar bar1"></span>

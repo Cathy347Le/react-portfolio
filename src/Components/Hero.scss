@@ -63,45 +63,45 @@
   }
 }
 
-@keyframes outerlightbar1 {
-  0% {
-    top: 0;
-  }
+// @keyframes outerlightbar1 {
+//   0% {
+//     top: 0;
+//   }
 
-  100% {
-    top: 100%;
-    height: 0;
-  }
-}
-@keyframes outerlightbar2 {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: 100%;
-    width: 0;
-  }
-}
-@keyframes outerlightbar3 {
-  0% {
-    bottom: 0;
-  }
+//   100% {
+//     top: 100%;
+//     height: 0;
+//   }
+// }
+// @keyframes outerlightbar2 {
+//   0% {
+//     left: 0;
+//   }
+//   100% {
+//     left: 100%;
+//     width: 0;
+//   }
+// }
+// @keyframes outerlightbar3 {
+//   0% {
+//     bottom: 0;
+//   }
 
-  100% {
-    bottom: 100%;
-    height: 0;
-  }
-}
-@keyframes outerlightbar4 {
-  0% {
-    right: 0;
-  }
+//   100% {
+//     bottom: 100%;
+//     height: 0;
+//   }
+// }
+// @keyframes outerlightbar4 {
+//   0% {
+//     right: 0;
+//   }
 
-  100% {
-    right: 100%;
-    width: 0;
-  }
-}
+//   100% {
+//     right: 100%;
+//     width: 0;
+//   }
+// }
 
 .hero-section {
   .inner-box {
@@ -156,89 +156,87 @@
   }
 }
 
-@keyframes innerlightbar1 {
-  0% {
-    bottom: 0;
-  }
+// @keyframes innerlightbar1 {
+//   0% {
+//     bottom: 0;
+//   }
 
-  100% {
-    bottom: 100%;
-    height: 0;
-  }
-}
-@keyframes innerlightbar2 {
-  0% {
-    right: 0;
-  }
-  100% {
-    right: 100%;
-    width: 0;
-  }
-}
-@keyframes innerlightbar3 {
-  0% {
-    top: 0;
-  }
+//   100% {
+//     bottom: 100%;
+//     height: 0;
+//   }
+// }
+// @keyframes innerlightbar2 {
+//   0% {
+//     right: 0;
+//   }
+//   100% {
+//     right: 100%;
+//     width: 0;
+//   }
+// }
+// @keyframes innerlightbar3 {
+//   0% {
+//     top: 0;
+//   }
 
-  100% {
-    top: 100%;
-    height: 0;
-  }
-}
-@keyframes innerlightbar4 {
-  0% {
-    left: 0;
-  }
+//   100% {
+//     top: 100%;
+//     height: 0;
+//   }
+// }
+// @keyframes innerlightbar4 {
+//   0% {
+//     left: 0;
+//   }
 
-  100% {
-    left: 100%;
-    width: 0;
-  }
-}
+//   100% {
+//     left: 100%;
+//     width: 0;
+//   }
+// }
 
 .hero-section {
   .inner-box {
     h2 {
       margin-bottom: 1rem;
     }
-    .box {
+    .hero-content-section {
+      min-width: 530px;
       overflow: hidden;
       position: relative;
       color: white;
       text-align: center;
       letter-spacing: 0.1em;
-      padding: 5rem 0;
+      padding: 5rem 3rem;
+      margin-bottom: 2.5rem;
       text-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
         0 0 40px $primary-purple, 0 0 80px $primary-purple,
         0 0 160px $primary-purple;
-      p {
-        max-width: 45rem;
-        line-height: 1.5rem;
-      }
     }
     .lightbarcontent {
       position: absolute;
       top: 0;
       left: 0;
       width: 0.5rem;
-      height: 80%;
+      height: 100%;
       border-radius: 10px;
       background: white;
       z-index: 2;
       box-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
         0 0 40px $primary-purple, 0 0 80px $primary-purple,
         0 0 160px $primary-purple;
-      animation: animatelightbarcontent 6s linear infinite;
+      animation: animatelightbarcontent 5s linear infinite;
     }
     .coverlayer {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
-      height: 80%;
+      height: 100%;
       background: $black;
       // background: green;
-      animation: animatecoverlayer 12s linear infinite;
+      animation: animatecoverlayer 10s linear infinite;
     }
   }
 }
@@ -252,11 +250,11 @@
     transform: scaleY(1) translateX(0);
   }
   90% {
-    transform: scaleY(1) translateX(calc(45rem - 0.5rem));
+    transform: scaleY(1) translateX(calc(530px - 0.5rem));
   }
   95%,
   100% {
-    transform: scaleY(0) translateX(calc(45rem - 0.5rem));
+    transform: scaleY(0) translateX(calc(530px - 0.5rem));
   }
 }
 
