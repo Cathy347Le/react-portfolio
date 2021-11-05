@@ -196,7 +196,9 @@
       margin-bottom: 1rem;
     }
     .hero-content-section {
-      min-width: 530px;
+      @media (min-width: 576px) {
+        min-width: 530px;
+      }
       overflow: hidden;
       position: relative;
       color: white;
@@ -209,20 +211,23 @@
         0 0 160px $primary-purple;
       animation: animateopacity 3s ease-in forwards;
     }
-    .lightbarcontent {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 0.5rem;
-      height: 100%;
-      border-radius: 10px;
-      background: white;
-      z-index: 2;
-      box-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
-        0 0 40px $primary-purple, 0 0 80px $primary-purple,
-        0 0 160px $primary-purple;
-      animation: animatelightbarcontent 5s linear infinite;
-      animation-delay: 3.5s;
+
+    @media (min-width: 576px) {
+      .lightbarcontent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0.5rem;
+        height: 100%;
+        border-radius: 10px;
+        background: white;
+        z-index: 2;
+        box-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
+          0 0 40px $primary-purple, 0 0 80px $primary-purple,
+          0 0 160px $primary-purple;
+        animation: animatelightbarcontent 5s linear infinite;
+        animation-delay: 3.5s;
+      }
     }
     .coverlayer {
       position: absolute;
@@ -230,10 +235,13 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: $black;
+      // background: $black;
       // background: green;
-      animation: animatecoverlayer 10s linear infinite;
-      animation-delay: 3.5s;
+      @media (min-width: 576px) {
+        animation: animatecoverlayer 10s linear infinite;
+        animation-delay: 3.5s;
+        background: $black;
+      }
     }
   }
 }
