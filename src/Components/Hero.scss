@@ -23,8 +23,8 @@
     .outerlightbar {
       position: absolute;
       background: #fff;
-      box-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 40px blue, 0 0 80px blue,
-        0 0 160px blue;
+      box-shadow: 0 0 10px $neon-blue, 0 0 20px $neon-blue, 0 0 40px $neon-blue,
+        0 0 80px $neon-blue, 0 0 160px $neon-blue;
       &.bar1 {
         left: 0;
         bottom: 0;
@@ -104,9 +104,8 @@
     .innerlightbar {
       position: absolute;
       background: #fff;
-      box-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
-        0 0 40px $primary-purple, 0 0 80px $primary-purple,
-        0 0 160px $primary-purple;
+      box-shadow: 0 0 10px $neon-pink, 0 0 20px $neon-pink, 0 0 40px $neon-pink,
+        0 0 80px $neon-pink, 0 0 160px $neon-pink;
       &.bar1 {
         left: 0;
         bottom: 0;
