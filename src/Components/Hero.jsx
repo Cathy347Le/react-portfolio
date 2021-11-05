@@ -8,10 +8,10 @@ class Hero extends Component {
       <div className="hero-section">
         <div className="outer-box">
           <div className="inner-box">
-            <span className="lightbar bar1"></span>
-            <span className="lightbar bar2"></span>
-            <span className="lightbar bar3"></span>
-            <span className="lightbar bar4"></span>
+            <span className="innerlightbar bar1"></span>
+            <span className="innerlightbar bar2"></span>
+            <span className="innerlightbar bar3"></span>
+            <span className="innerlightbar bar4"></span>
           </div>
         </div>
       </div>
