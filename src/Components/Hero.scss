@@ -210,7 +210,7 @@
     }
     .hero-content-section {
       @media (min-width: 576px) {
-        min-width: 530px;
+        min-width: 33rem;
       }
       overflow: hidden;
       position: relative;
@@ -277,11 +277,11 @@
     transform: scaleY(1) translateX(0);
   }
   90% {
-    transform: scaleY(1) translateX(calc(530px - 0.5rem));
+    transform: scaleY(1) translateX(calc(33rem - 0.5rem));
   }
   95%,
   100% {
-    transform: scaleY(0) translateX(calc(530px - 0.5rem));
+    transform: scaleY(0) translateX(calc(33rem - 0.5rem));
   }
 }
 
