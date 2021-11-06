@@ -15,7 +15,7 @@ class Hero extends Component {
             <div className="hero-content-section">
               <div className="lightbarcontent"></div>
               <div className="coverlayer"></div>
-              <h1>Cathy Le Hi</h1>
+              <h1>Cathy Le</h1>
               <h2>Software Engineer</h2>
             </div>
             <Menu />
