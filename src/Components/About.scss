@@ -1,20 +1,5 @@
 @import "./variables-mixins.scss";
 
-// @media (min-width: 768px) {
-//   .about-section {
-//     display: flex;
-//     height: 100vh;
-//     .col-sm-6 {
-//       flex: 50%;
-//       &.title-section {
-//         &:before {
-//           width: 50vw;
-//         }
-//       }
-//     }
-//   }
-// }
-
 @media (min-width: 768px) {
   .about-section {
     .title-section {
@@ -46,17 +31,13 @@
 }
 
 .about-section {
-  // height: 100vh;
-  // position: relative;
   .title-section {
     height: 100vh;
     background-color: #262626;
     color: $white;
     position: relative;
     .title-wrapper {
-      // height: 100vh;
       position: relative;
-      // padding-inline: 48px;
       top: 40%;
       .title-container {
         position: relative;
