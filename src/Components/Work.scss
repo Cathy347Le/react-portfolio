@@ -28,6 +28,7 @@
     height: 100vh;
     color: $primary-purple;
     padding: 48px;
+    position: relative;
     .title-container {
       position: relative;
       top: 40%;
@@ -183,7 +184,7 @@
   }
   .menu-container {
     ul li a {
-      color: orange;
+      color: $primary-purple;
       &:hover {
         border-bottom: 2px solid $primary-purple;
       }
