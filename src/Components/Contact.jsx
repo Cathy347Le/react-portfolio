@@ -19,8 +19,8 @@ class Contact extends Component {
         </div>
         <div className="col-xs-12 col-sm-6 bckgrd-white content-section">
           <div className="content-container">
-            <h3>I love meeting new people</h3>
-            <h3>just say hello.</h3>
+            <h3>I love meeting new people.</h3>
+            <h3>Just say hello.</h3>
             <p>
               I’m always open to discussing new projects, creative ideas or
               opportunities to be a part of your team. Feel free to email me.
