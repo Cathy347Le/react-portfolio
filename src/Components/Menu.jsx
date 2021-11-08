@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Menu.scss";
-import resume from "../images/Cathy-Le-Resume.pdf";
+import resume from "../assets/Cathy-Le-Resume.pdf";
 
 class Menu extends Component {
   render() {

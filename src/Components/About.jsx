@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import Sticky from "react-stickynode";
 import "./About.scss";
 import Menu from "./Menu";
-import profileImage from "../images/profile_pic.jpeg";
+import profileImage from "../assets/profile_pic.jpeg";
 
 class About extends Component {
   render() {
