@@ -26,6 +26,7 @@
   align-items: center;
   justify-content: center;
   .outer-box {
+    overflow: hidden;
     height: 90%;
     width: 95%;
     @media (max-width: 576px) {
@@ -256,7 +257,7 @@
         animation: animatecoverlayer 10s linear infinite;
         animation-delay: 3s;
         // background: $black;
-        // background: green;
+        background: green;
       }
     }
   }
