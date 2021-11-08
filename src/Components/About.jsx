@@ -26,6 +26,8 @@ class About extends Component {
               />
               <span></span>
               <span></span>
+              <span></span>
+              <span></span>
             </div>
           </div>
           <Menu />
@@ -59,10 +61,8 @@ class About extends Component {
               experienced when you get to share them with others.
             </p>
             <p>
-              In my free time, I enjoy hosting dinner parties, watching the San
-              Francisco 49ers and Giants on TV, and spending time with my
-              labradoodle named Gouda. When I’m not coding, I’m probably out
-              with Gouda taking her for a walk or with friends at a biergarten.
+              When I’m not coding, I’m probably walking my dog Gouda or out with
+              friends at a biergarten.
             </p>
           </div>
         </div>
