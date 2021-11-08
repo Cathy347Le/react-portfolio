@@ -35,7 +35,7 @@ class Work extends Component {
         {
           id: 4,
           title: "Talent Rewire",
-          description: "One of the first websites I did at Social Driver",
+          description: "One of the first websites I built at Social Driver",
           backgroundImage: "../images/project-rewire.jpeg",
           linkURL: "https://www.talentrewire.org/",
         },
@@ -43,7 +43,7 @@ class Work extends Component {
           id: 5,
           title: "2018 U.S Senate elections",
           description:
-            "My capstone project at GA to learn about D3 and SVGs. As a former research data analyst at a polling and consulting firm, I wanted to embrace my former career and learn how to built dynamic, interactive data visualizations.",
+            "My capstone project at General Asssembly to learn about D3 and SVGs. As a former research data analyst at a polling and consulting firm, I wanted to leverage my experience and learn how to built dynamic, interactive data visualizations.",
           backgroundImage: "../images/project-elections.jpg",
           linkURL: "http://project-5-election-site.surge.sh/",
         },
@@ -51,7 +51,7 @@ class Work extends Component {
           id: 6,
           title: "Petz",
           description:
-            'A social media web app for pets. Users can create a profile for their pets, post comments, and "lick" other pet profiles. Built using React, MongoDB, Express, and Node.js. Front-end deployed on Surge and Backend deployed on Heroku. It was built alongside 2 other classmates.',
+            'A social media web app for pets. Users can create a profile for their pets, post comments, and "lick" other pet profiles. Built using React, MongoDB, Express, and Node.js. Front-end deployed on Surge and Backend deployed on Heroku. It was built with two other classmates at General Assembly.',
           backgroundImage: "../images/project-petz.jpg",
           linkURL: "https://github.com/Cathy347Le/project3frontend",
         },
@@ -67,7 +67,7 @@ class Work extends Component {
           id: 8,
           title: "Wags to Wings",
           description:
-            "Online store for pet supplies. The e-commerce website was built using Python, Django, and Bootstrap during a two-day, in-class Django Hackathon, where we had to develop a web app based on a UX design mockup. It was built alongside 3 other classmates.",
+            "Online store for pet supplies. The e-commerce website was built using Python, Django, and Bootstrap during a two-day, in-class Django Hackathon, where we had to develop a web app based on a UX design mockup. It was built with three other classmates.",
           backgroundImage: "../images/project-wags.jpg",
           linkURL: "https://github.com/Cathy347Le/MangoDjango",
         },
