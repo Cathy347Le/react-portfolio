@@ -8,14 +8,15 @@ class About extends Component {
   render() {
     return (
       <div className="about-section" id="about-section">
-        {/* <Sticky> */}
         <div
           className="col-xs-12 col-sm-6 bckgrd-black title-section"
           id="title-section"
         >
           <div className="title-wrapper">
             <div className="title-container">
-              <h2>About</h2>
+              <h2 className="neon-sign">
+                A<span>b</span>ou<span>t</span>
+              </h2>
             </div>
             <div className="profile-container">
               <img
@@ -29,7 +30,6 @@ class About extends Component {
           </div>
           <Menu />
         </div>
-        {/* </Sticky> */}
         <div
           className="col-xs-12 col-sm-6 bckgrd-white content-section"
           id="test-section"

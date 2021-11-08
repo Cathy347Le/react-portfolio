@@ -90,7 +90,7 @@ class Work extends Component {
             {({ style }) => (
               <div style={style} className="bckgrd-white title-section">
                 <div className="title-container">
-                  <h2>Work</h2>
+                  <h2 className="section-title">Work</h2>
                 </div>
                 <Menu />
               </div>

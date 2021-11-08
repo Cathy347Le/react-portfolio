@@ -33,7 +33,10 @@
 .about-section {
   .title-section {
     height: 100vh;
-    background-color: #262626;
+    background-color: $black;
+    background-image: url(https://i.imgur.com/6QJjYMe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: $white;
     position: relative;
     .title-wrapper {
@@ -86,16 +89,16 @@
         }
       }
     }
-    &::before {
-      content: "";
-      position: absolute;
-      opacity: 0.7;
-      mix-blend-mode: soft-light;
-      animation: grain 0.4s steps(1) infinite;
-      height: 100vh;
-      width: 100%;
-      background-image: url(../images/noise-256w.png);
-    }
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   opacity: 0.7;
+    //   mix-blend-mode: soft-light;
+    //   animation: grain 0.4s steps(1) infinite;
+    //   height: 100vh;
+    //   width: 100%;
+    //   background-image: url(../images/noise-256w.png);
+    // }
   }
 }
 

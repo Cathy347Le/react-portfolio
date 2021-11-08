@@ -14,6 +14,58 @@ h2 {
   // font-size: 36px;
   font-size: clamp(36px, 3vw, 48px);
   font-weight: 800;
+  &.neon-sign {
+    font-family: "Satisfy", cursive;
+    font-size: clamp(80px, 12vh, 120px);
+    color: hsl(240, 68%, 90%);
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $primary-purple,
+      0 0 0.5em $primary-purple, 0 0 0.1em $primary-purple, 0 10px 3px #000;
+    font-weight: normal;
+    span {
+      animation: blink linear infinite 2s;
+    }
+    span:nth-of-type(2) {
+      animation: blink linear infinite 3s;
+    }
+  }
+  &.section-title {
+    font-family: "Satisfy", cursive;
+    font-size: clamp(80px, 12vh, 120px);
+    font-weight: normal;
+  }
+}
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79% {
+    color: #333;
+  }
+  80% {
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
 }
 
 h3 {
@@ -22,7 +74,6 @@ h3 {
   font-weight: 800;
   margin-bottom: 4px;
   &.outline-shadow-effect {
-    font-family: "Ubuntu", sans-serif;
     // font-size: 32px;
     font-size: clamp(28px, 3vw, 36px);
     font-weight: 700;

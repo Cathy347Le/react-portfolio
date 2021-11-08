@@ -12,7 +12,7 @@ class Contact extends Component {
         <div className="col-xs-12 col-sm-6 bckgrd-purple title-section">
           <div className="title-wrapper">
             <div className="title-container">
-              <h2>Contact</h2>
+              <h2 className="section-title">Contact</h2>
             </div>
             <Menu />
           </div>
