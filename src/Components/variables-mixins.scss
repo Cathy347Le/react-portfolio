@@ -16,7 +16,7 @@ h2 {
   font-weight: 800;
   &.neon-sign {
     font-family: "Satisfy", cursive;
-    font-size: clamp(80px, 12vh, 120px);
+    font-size: clamp(60px, 12vh, 130px);
     color: hsl(240, 68%, 90%);
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em $primary-purple,
       0 0 0.5em $primary-purple, 0 0 0.1em $primary-purple, 0 10px 3px #000;
