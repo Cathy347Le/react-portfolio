@@ -46,10 +46,10 @@ class About extends Component {
               <a href="https://www.gqrr.com/" target="_blank" rel="noreferrer">
                 Greenberg Quinlan Rosner
               </a>
-              , which is a political polling and consulting firm. As a software
-              engineer, I enjoying breaking down complex problems and presenting
-              simple user-friendly solutions. Technology should be enjoyable and
-              easy to use!
+              , which is a prestigious political polling and consulting firm in
+              Washington, DC. As a software engineer, I enjoy breaking down
+              complex problems and presenting simple user-friendly solutions.
+              Technology should be enjoyable and easy to use!
             </p>
             <p>
               Similar to the tech industry, the polling industry relies on good
