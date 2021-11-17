@@ -13,7 +13,7 @@ class Work extends Component {
           id: 1,
           title: "GMMB",
           description:
-            "Interactive and creative website using parallax, animations, and hover effects",
+            "Interactive and creative agency website using parallax, animations, and hover effects",
           backgroundImage: "../images/project-gmmb.jpeg",
           linkURL: "https://www.gmmb.com/",
         },
@@ -21,7 +21,7 @@ class Work extends Component {
           id: 2,
           title: "American College of Allergy, Asthma, & Immunology",
           description:
-            "Interactive and creative website using parallax, animations, and hover effects",
+            "Website built for ACAAI members and for the public. Site includes Find an Allergist tool, linkify text, and in-page navigation.",
           backgroundImage: "../images/project-acaai.jpeg",
           linkURL: "https://acaai.org/",
         },
@@ -34,13 +34,6 @@ class Work extends Component {
         },
         {
           id: 4,
-          title: "Talent Rewire",
-          description: "One of the first websites I built at Social Driver",
-          backgroundImage: "../images/project-rewire.jpeg",
-          linkURL: "https://www.talentrewire.org/",
-        },
-        {
-          id: 5,
           title: "2018 U.S Senate elections",
           description:
             "My capstone project at General Asssembly to learn about D3 and SVGs. As a former research data analyst at a polling and consulting firm, I wanted to leverage my experience and learn how to built dynamic, interactive data visualizations.",
@@ -48,7 +41,7 @@ class Work extends Component {
           linkURL: "http://project-5-election-site.surge.sh/",
         },
         {
-          id: 6,
+          id: 5,
           title: "Petz",
           description:
             'A social media web app for pets. Users can create a profile for their pets, post comments, and "lick" other pet profiles. Built using React, MongoDB, Express, and Node.js. Front-end deployed on Surge and Backend deployed on Heroku. It was built with two other classmates at General Assembly.',
@@ -56,7 +49,7 @@ class Work extends Component {
           linkURL: "https://github.com/Cathy347Le/project3frontend",
         },
         {
-          id: 7,
+          id: 6,
           title: "Think Movie",
           description:
             "Allows users to create movie lists to manage movies they love, want to watch, or just to catalogue their entire movie collection. Built with Express, Handlebars, Node.js, and MongoDB. Deployed on Heroku.",
@@ -72,7 +65,7 @@ class Work extends Component {
         //   linkURL: "https://github.com/Cathy347Le/MangoDjango",
         // },
         {
-          id: 8,
+          id: 7,
           title: "Lunar New Year Jeopardy",
           description:
             "Self-scoring trivia game utilizing JavaScript, HTML, and CSS",
