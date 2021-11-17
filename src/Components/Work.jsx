@@ -63,16 +63,16 @@ class Work extends Component {
           backgroundImage: "../images/project-movie.jpg",
           linkURL: "https://thinkmovie.herokuapp.com/",
         },
+        // {
+        //   id: 8,
+        //   title: "Wags to Wings",
+        //   description:
+        //     "Online store for pet supplies. The e-commerce website was built using Python, Django, and Bootstrap during a two-day, in-class Django Hackathon, where we had to develop a web app based on a UX design mockup. It was built with three other classmates.",
+        //   backgroundImage: "../images/project-wags.jpg",
+        //   linkURL: "https://github.com/Cathy347Le/MangoDjango",
+        // },
         {
           id: 8,
-          title: "Wags to Wings",
-          description:
-            "Online store for pet supplies. The e-commerce website was built using Python, Django, and Bootstrap during a two-day, in-class Django Hackathon, where we had to develop a web app based on a UX design mockup. It was built with three other classmates.",
-          backgroundImage: "../images/project-wags.jpg",
-          linkURL: "https://github.com/Cathy347Le/MangoDjango",
-        },
-        {
-          id: 9,
           title: "Lunar New Year Jeopardy",
           description:
             "Self-scoring trivia game utilizing JavaScript, HTML, and CSS",
