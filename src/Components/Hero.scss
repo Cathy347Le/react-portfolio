@@ -221,7 +221,7 @@
       color: white;
       text-align: center;
       letter-spacing: 0.1em;
-      padding: 5rem 3rem;
+      padding: 4rem 3rem;
       margin-bottom: 2.5rem;
       text-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
         0 0 40px $primary-purple, 0 0 80px $primary-purple,
@@ -242,7 +242,7 @@
         box-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
           0 0 40px $primary-purple, 0 0 80px $primary-purple,
           0 0 160px $primary-purple;
-        // animation: animatelightbarcontent 5s linear infinite;
+        animation: animatelightbarcontent 5s linear infinite;
         animation-delay: 3s;
       }
     }
@@ -254,9 +254,9 @@
       height: 100%;
       z-index: 1;
       @media (min-width: 576px) {
-        // animation: animatecoverlayer 10s linear infinite;
+        animation: animatecoverlayer 10s linear infinite;
         animation-delay: 3s;
-        // background: $black;
+        background: $black;
         // background: green;
       }
     }
