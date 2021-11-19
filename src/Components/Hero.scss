@@ -208,9 +208,9 @@
 .hero-section {
   .inner-box {
     h2 {
+      font-size: clamp(34px, 3vw, 50px);
       margin-bottom: 1rem;
-      font-family: "Satisfy", cursive;
-      font-weight: normal;
+      font-weight: 700;
     }
     .hero-content-section {
       @media (min-width: 576px) {
@@ -242,7 +242,7 @@
         box-shadow: 0 0 10px $primary-purple, 0 0 20px $primary-purple,
           0 0 40px $primary-purple, 0 0 80px $primary-purple,
           0 0 160px $primary-purple;
-        animation: animatelightbarcontent 5s linear infinite;
+        // animation: animatelightbarcontent 5s linear infinite;
         animation-delay: 3s;
       }
     }
@@ -254,9 +254,9 @@
       height: 100%;
       z-index: 1;
       @media (min-width: 576px) {
-        animation: animatecoverlayer 10s linear infinite;
+        // animation: animatecoverlayer 10s linear infinite;
         animation-delay: 3s;
-        background: $black;
+        // background: $black;
         // background: green;
       }
     }
