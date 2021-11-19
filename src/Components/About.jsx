@@ -37,9 +37,7 @@ class About extends Component {
           id="test-section"
         >
           <div className="content-container">
-            <h3 className="outline-shadow-effect">
-              Hello, my name is Cathy Le.
-            </h3>
+            <h3 className="purple-text">Hello, my name is Cathy Le.</h3>
             <p>
               I am a full stack software engineer, and formerly a political
               research data analyst at{" "}
