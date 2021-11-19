@@ -123,7 +123,7 @@
       a {
         color: #0e76a8 !important;
         svg {
-          filter: drop-shadow(1px 1px 8px #0e76a8);
+          // filter: drop-shadow(0px 0px 2px #0e76a8);
         }
       }
       &:hover {
@@ -136,7 +136,7 @@
       a {
         color: #090108 !important;
         svg {
-          filter: drop-shadow(1px 1px 8px #090108);
+          filter: drop-shadow(0px 0px 4px #090108);
         }
       }
       &:hover {
@@ -149,7 +149,7 @@
       a {
         color: #b026ff !important;
         svg {
-          filter: drop-shadow(1px 1px 8px #b026ff);
+          // filter: drop-shadow(0px 0px 3px #b026ff);
         }
       }
       &:hover {
