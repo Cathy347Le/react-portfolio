@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import "./Contact.scss";
-import Menu from "./Menu";
+import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import './Contact.scss';
+import Menu from './Menu';
 
 class Contact extends Component {
   render() {
@@ -55,7 +55,7 @@ class Contact extends Component {
               </div>
               <div className="btn gm-btn">
                 <a
-                  href="mailto:CAthy347Le@gmail.com"
+                  href="mailto:Cathy347Le@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
