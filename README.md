@@ -6,3 +6,10 @@
 
 - `npm i`
 - `npm run start`
+
+#### TODOs
+
+- Update resume
+- Update About me page
+- Add PS and ACG checkout
+- Mobile friendly nav
