@@ -1,8 +1,7 @@
-import React, { Component } from "react";
-// import Sticky from "react-stickynode";
-import "./About.scss";
-import Menu from "./Menu";
-import profileImage from "../assets/profile_pic.jpeg";
+import React, { Component } from 'react';
+import './About.scss';
+import Menu from './Menu';
+import profileImage from '../assets/profile_pic.jpeg';
 
 class About extends Component {
   render() {
@@ -40,7 +39,7 @@ class About extends Component {
             <h3 className="purple-text">Hello, my name is Cathy Le.</h3>
             <p>
               I am a full stack software engineer, and formerly a political
-              research data analyst at{" "}
+              research data analyst at{' '}
               <a href="https://www.gqrr.com/" target="_blank" rel="noreferrer">
                 Greenberg Quinlan Rosner
               </a>
