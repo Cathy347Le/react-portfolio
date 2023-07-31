@@ -58,8 +58,9 @@ class About extends Component {
               experienced when you get to share them with others.
             </p>
             <p>
-              When I’m not coding, I’m probably walking my dog Gouda or out with
-              friends at a biergarten.
+              When I&rsquo;m not coding, I'm likely dabbling in woodworking,
+              playing fetch with my dog Gouda, or out with friends at a
+              biergarten.
             </p>
           </div>
         </div>
