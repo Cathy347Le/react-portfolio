@@ -1,4 +1,4 @@
-@import "./variables-mixins.scss";
+@import './variables-mixins.scss';
 
 @media (min-width: 768px) {
   .about-section {
@@ -15,12 +15,12 @@
 
 .about-section {
   &:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
   .title-section {
-    z-index: 99;
+    z-index: 10;
   }
 }
 
@@ -96,7 +96,7 @@
       }
     }
     &:before {
-      content: " ";
+      content: ' ';
       position: absolute;
       inset: 0;
       width: 100%;
