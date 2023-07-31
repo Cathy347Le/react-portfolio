@@ -20,3 +20,4 @@ installed before proceeding with the below installation instructions
 - Update About me page
 - Add PS and ACG checkout
 - Mobile friendly nav
+- add tests
