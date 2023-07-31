@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import "./Hero.scss";
-import Menu from "./Menu";
+import React, { Component } from 'react';
+import './Hero.scss';
+// import Menu from './Menu';
 
 class Hero extends Component {
   render() {
@@ -18,7 +18,7 @@ class Hero extends Component {
               <h1>Cathy Le</h1>
               <h2>Software Engineer</h2>
             </div>
-            <Menu />
+            {/* <Menu /> */}
             <span className="innerlightbar bar1"></span>
             <span className="innerlightbar bar2"></span>
             <span className="innerlightbar bar3"></span>
