@@ -1,4 +1,4 @@
-@import "./variables-mixins.scss";
+@import './variables-mixins.scss';
 
 @media (min-width: 768px) {
   .work-section {
@@ -168,18 +168,13 @@
         }
       }
       &:before {
-        content: " ";
+        content: ' ';
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
         display: block;
         height: 100%;
-        // background: linear-gradient(
-        //   180deg,
-        //   rgba(38, 38, 38, 0.8) 0,
-        //   rgba(255, 255, 255, 0) 100%
-        // );
         background: linear-gradient(
           rgba(38, 38, 38, 0.4) 0,
           rgba(38, 38, 38, 0.4) 100%

@@ -14,7 +14,6 @@ h1 {
 }
 
 h2 {
-  // font-size: 36px;
   font-size: clamp(36px, 4vw, 52px);
   font-weight: 700;
   &.neon-sign {
@@ -73,19 +72,9 @@ h2 {
 }
 
 h3 {
-  // font-size: 24px;
   font-size: clamp(22px, 2vw, 26px);
   font-weight: 700;
   margin-bottom: 4px;
-  // &.outline-shadow-effect {
-  //   // font-size: 32px;
-  //   font-size: clamp(26px, 2.3vw, 32px);
-  //   font-weight: 700;
-  //   color: #fafafa;
-  //   letter-spacing: 3px;
-  //   text-shadow: -1.5px 1.5px 0 #603f83, 1.5px 1.5px 0 #663dff,
-  //     1.5px -1.5px 0 #aa00ff, -1.5px -1.5px 0 #527df3;
-  // }
   &.purple-text {
     color: $primary-purple;
   }
