@@ -1,4 +1,4 @@
-@import "./variables-mixins.scss";
+@import './variables-mixins.scss';
 
 .hero-section {
   overflow: hidden;
@@ -26,6 +26,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 767px) {
+    height: 94vh;
+  }
   .outer-box {
     height: 90%;
     width: 95%;

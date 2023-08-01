@@ -1,4 +1,4 @@
-@import "./variables-mixins.scss";
+@import './variables-mixins.scss';
 
 .menu-container {
   position: absolute;
@@ -14,7 +14,7 @@
       padding: 0.5rem 0;
       &:not(:first-child) {
         &:before {
-          content: "/";
+          content: '/';
           padding: 0 1rem;
           @media (max-width: 767px) {
             padding: 0 0.6rem;

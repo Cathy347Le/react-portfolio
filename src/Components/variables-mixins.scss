@@ -5,10 +5,11 @@ $neon-pink: #ff26e2;
 $primary-purple: #b026ff;
 $black: #090108;
 $white: #ffffff;
+$off-white: #f2f3f4;
 
 h1 {
   font-size: clamp(40px, 10vw, 100px);
-  font-family: "Satisfy", cursive;
+  font-family: 'Satisfy', cursive;
   font-weight: normal;
 }
 
@@ -17,7 +18,7 @@ h2 {
   font-size: clamp(36px, 4vw, 52px);
   font-weight: 700;
   &.neon-sign {
-    font-family: "Satisfy", cursive;
+    font-family: 'Satisfy', cursive;
     font-size: clamp(60px, 12vh, 130px);
     font-weight: 700;
     color: hsl(240, 68%, 95%);
@@ -32,7 +33,7 @@ h2 {
     }
   }
   &.section-title {
-    font-family: "Satisfy", cursive;
+    font-family: 'Satisfy', cursive;
     font-size: clamp(80px, 12vh, 120px);
     font-weight: normal;
   }
