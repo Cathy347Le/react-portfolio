@@ -1,4 +1,4 @@
-@import "./variables-mixins.scss";
+@import './variables-mixins.scss';
 
 @media (min-width: 768px) {
   .contact-section {
@@ -22,7 +22,7 @@
     color: $white;
     position: relative;
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       opacity: 0.9;
       mix-blend-mode: soft-light;
@@ -98,7 +98,6 @@
     font-size: clamp(16px, 1.2rem, 24px);
     min-width: 3.8em;
     min-height: 3.8em;
-    // background-color: #fafafa;
     background-color: rgba($color: #f2f2f2, $alpha: 0.5);
     margin-left: 1em;
     margin-right: 1em;
