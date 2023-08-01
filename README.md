@@ -16,8 +16,7 @@ installed before proceeding with the below installation instructions
 
 #### TODOs
 
-- Update resume
-- Update About me page
+- Update about me page
 - Add PS and ACG checkout
-- Mobile friendly nav
+- Conditionally render nav component
 - add tests
