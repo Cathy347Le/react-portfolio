@@ -38,24 +38,20 @@ class About extends Component {
           <div className="content-container">
             <h3 className="purple-text">Hello, my name is Cathy Le.</h3>
             <p>
-              I am a full stack software engineer, and formerly a political
-              research data analyst at{' '}
-              <a href="https://www.gqrr.com/" target="_blank" rel="noreferrer">
-                Greenberg Quinlan Rosner
-              </a>
-              , which is a prestigious political polling and consulting firm in
-              Washington, DC. As a software engineer, I enjoy breaking down
-              complex problems and presenting simple user-friendly solutions.
-              Technology should be enjoyable and easy to use!
+              I am a full stack software engineer and a former political
+              research data analyst. I now specialize in developing
+              enterprise-level cloud native applications and microservices. I am
+              a lifelong learner that is most fulfilled when collaborating with
+              others to find simple, user-friendly solutions to complex
+              problems. Technology should be enjoyable and easy to use!
             </p>
             <p>
-              Similar to the tech industry, the polling industry relies on good
-              coordination. I take pride in knowing how to work with people of
-              different skillsets, personalities, and backgrounds to accomplish
-              the task at hand. While I excel at solving problems on my own, I
-              am most fulfilled when collaborating with others to find
-              solutions. I believe accomplishments and success are better
-              experienced when you get to share them with others.
+              Similar to the tech industry, the political polling industry
+              relies on good coordination. I take pride in knowing how to work
+              with people of different skill sets, personalities, and
+              backgrounds to accomplish the task at hand. While I excel at
+              solving problems on my own, I believe accomplishments and success
+              are better experienced when you get to share them with others.
             </p>
             <p>
               When I&rsquo;m not coding, I'm likely dabbling in woodworking,
