@@ -10,6 +10,22 @@ class Work extends Component {
     this.state = {
       projects: [
         {
+          id: 8,
+          title: 'Pluralsight checkout experience',
+          description:
+            'Brand new digital checkout experience built with React, Typescript, GraphQL, Node, and AWS serverless PaaS offerings',
+          backgroundImage: '../images/project-ps-checkout.jpg',
+          linkURL: 'https://www.pluralsight.com/checkout?sku=IND-M-STANDARD-FT',
+        },
+        {
+          id: 9,
+          title: 'A Cloud Guru checkout experience',
+          description:
+            'Legacy checkout experience built with Next.js, GraphQL, Node, and AWS serverless PaaS offerings',
+          backgroundImage: '../images/project-acg-checkout.jpg',
+          linkURL: 'https://checkout.acloud.guru/signup/personal',
+        },
+        {
           id: 1,
           title: 'GMMB',
           description:

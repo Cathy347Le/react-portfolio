@@ -16,7 +16,5 @@ installed before proceeding with the below installation instructions
 
 #### TODOs
 
-- Update about me page
-- Add PS and ACG checkout
 - Conditionally render nav component
 - add tests
