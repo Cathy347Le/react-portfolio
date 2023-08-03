@@ -13,7 +13,7 @@ class Work extends Component {
           id: 8,
           title: 'Pluralsight checkout experience',
           description:
-            'Brand new digital checkout experience built with React, Typescript, GraphQL, Node, and AWS serverless PaaS offerings',
+            'Pluralsight is an e-learning subscription based company. My team built and deployed a brand new checkout experience using React, Typescript, GraphQL, Node, and AWS serverless PaaS offerings',
           backgroundImage: '../images/project-ps-checkout.jpg',
           linkURL: 'https://www.pluralsight.com/checkout?sku=IND-M-STANDARD-FT',
         },
@@ -21,7 +21,7 @@ class Work extends Component {
           id: 9,
           title: 'A Cloud Guru checkout experience',
           description:
-            'Legacy checkout experience built with Next.js, GraphQL, Node, and AWS serverless PaaS offerings',
+            'A Cloud Guru is an e-learning company that Pluralsight acquired. Our team managed the legacy checkout experience, which was built with Next.js, GraphQL, Node, and AWS serverless PaaS offerings',
           backgroundImage: '../images/project-acg-checkout.jpg',
           linkURL: 'https://checkout.acloud.guru/signup/personal',
         },
