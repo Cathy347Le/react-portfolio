@@ -7,10 +7,9 @@ import MobileNavigation from './Components/MobileNavigation';
 
 class App extends Component {
   render() {
-    const isMobile = window.innerWidth <= 600;
     return (
       <div>
-        {isMobile && <MobileNavigation />}
+        <MobileNavigation />
         <Hero />
         <About />
         <Work />
