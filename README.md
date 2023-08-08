@@ -16,5 +16,4 @@ installed before proceeding with the below installation instructions
 
 #### TODOs
 
-- Conditionally render nav component
 - add tests
