@@ -16,4 +16,5 @@ installed before proceeding with the below installation instructions
 
 #### TODOs
 
+- redeploy site again
 - add tests
