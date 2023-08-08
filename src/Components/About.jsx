@@ -29,7 +29,7 @@ class About extends Component {
               <span></span>
             </div>
           </div>
-          {/* <Menu /> */}
+          <Menu />
         </div>
         <div
           className="col-xs-12 col-sm-6 bckgrd-white content-section"
