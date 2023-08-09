@@ -53,6 +53,7 @@
         margin: auto;
         padding-inline: 32px;
         text-align: center;
+        text-shadow: 2px 2px $black;
         @media (max-width: 767px) {
           padding-inline: 3rem;
         }

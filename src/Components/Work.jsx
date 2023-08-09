@@ -13,7 +13,7 @@ class Work extends Component {
           id: 8,
           title: 'Pluralsight checkout experience',
           description:
-            'Pluralsight is an e-learning subscription based company. My team built and deployed a brand new checkout experience using React, Typescript, GraphQL, Node, and AWS serverless PaaS offerings',
+            'Pluralsight is an e-learning subscription-based company. I played a pivotal role in the development of the checkout experience, leveraging a robust stack encompassing React, Typescript, GraphQL, Node, and AWS serverless PaaS solutions.',
           backgroundImage: '../images/project-ps-checkout.jpg',
           linkURL: 'https://www.pluralsight.com/checkout?sku=IND-M-STANDARD-FT',
         },
@@ -21,7 +21,7 @@ class Work extends Component {
           id: 9,
           title: 'A Cloud Guru checkout experience',
           description:
-            'A Cloud Guru is an e-learning company that Pluralsight acquired. Our team managed the legacy checkout experience, which was built with Next.js, GraphQL, Node, and AWS serverless PaaS offerings',
+            'Pluralsight acquired A Cloud Guru in July 2021. Our team managed the legacy checkout experience, which was built with Next.js, GraphQL, Node, and AWS.',
           backgroundImage: '../images/project-acg-checkout.jpg',
           linkURL: 'https://checkout.acloud.guru/signup/personal',
         },
@@ -29,7 +29,7 @@ class Work extends Component {
           id: 1,
           title: 'GMMB',
           description:
-            'Interactive and creative agency website using parallax, animations, and hover effects',
+            'Crafted for an agency, this interactive website employs parallax scrolling, dynamic animations, and captivating hover effects.',
           backgroundImage: '../images/project-gmmb.jpeg',
           linkURL: 'https://www.gmmb.com/',
         },
@@ -37,14 +37,15 @@ class Work extends Component {
           id: 2,
           title: 'American College of Allergy, Asthma, & Immunology',
           description:
-            'Website built for ACAAI members and for the public. Site includes Find an Allergist tool, linkify text, and in-page navigation.',
+            'A website to serve both ACAAI members and for patients, offering features such as Find an Allergist tool, intelligently linked text, and seamless in-page navigation.',
           backgroundImage: '../images/project-acaai.jpeg',
           linkURL: 'https://acaai.org/',
         },
         {
           id: 3,
           title: 'Kuni Foundation',
-          description: 'Wordpress website built with accessibility in mind',
+          description:
+            'WordPress website designed with a focus on accessibility.',
           backgroundImage: '../images/project-kuni.jpg',
           linkURL: 'https://www.kunifoundation.org/',
         },

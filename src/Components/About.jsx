@@ -51,12 +51,12 @@ class About extends Component {
               with people of different skill sets, personalities, and
               backgrounds to accomplish the task at hand. While I excel at
               solving problems on my own, I believe accomplishments and success
-              are better experienced when you get to share them with others.
+              are better experienced when shared with others.
             </p>
             <p>
               When I&rsquo;m not coding, I'm likely dabbling in woodworking,
-              playing fetch with my dog Gouda, or out with friends at a
-              biergarten.
+              playing fetch with my dog Gouda, or enjoying time with friends at
+              a biergarten.
             </p>
           </div>
         </div>
