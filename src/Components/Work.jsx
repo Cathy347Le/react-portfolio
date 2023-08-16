@@ -85,6 +85,9 @@ class Work extends Component {
     };
   }
   render() {
+    const projectList = this.state.projects.map((project) => (
+      <Project key={project.id} project={project} />
+    ));
     return (
       <StickyContainer>
         <div className="work-section clearfix" id="work-section">
@@ -98,11 +101,7 @@ class Work extends Component {
               </div>
             )}
           </Sticky>
-          <div className="projects-section">
-            {this.state.projects.map((project) => (
-              <Project key={project.id} project={project} />
-            ))}
-          </div>
+          <div className="projects-section">{projectList}</div>
         </div>
       </StickyContainer>
     );
