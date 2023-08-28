@@ -3,7 +3,6 @@ import { StickyContainer, Sticky } from 'react-sticky';
 import './Work.scss';
 import Menu from './Menu';
 import Project from './Project';
-import { useMediaQuery } from 'react-responsive';
 
 class Work extends Component {
   constructor(props) {
