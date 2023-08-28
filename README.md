@@ -17,4 +17,8 @@ installed before proceeding with the below installation instructions
 #### TODOs
 
 - redeploy site again
+- Change to functional components
+- Keep code DRY
+- fix navigation for work section
 - add tests
+- add Github actions
