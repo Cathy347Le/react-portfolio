@@ -3,6 +3,7 @@ import { StickyContainer, Sticky } from 'react-sticky';
 import './Work.scss';
 import Menu from './Menu';
 import Project from './Project';
+import { useMediaQuery } from 'react-responsive';
 
 class Work extends Component {
   constructor(props) {
@@ -97,7 +98,7 @@ class Work extends Component {
                 <div className="title-container">
                   <h2 className="section-title">Work</h2>
                 </div>
-                <Menu />
+                {<Menu />}
               </div>
             )}
           </Sticky>
